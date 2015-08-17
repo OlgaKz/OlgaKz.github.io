@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        a[href*="//"]:not([href*="google.com"]) {color:#f70}
+        a[href*="google.com"] {color:#666}
+        a[href="http://maps.yandex.ru"]:after {content:" \0021F1"; }
+    </style>
+</head>
+<body>
+
+<div>
+    <ul>
+        <li><a href="/">Главная</a></li>
+        <li><a href="/news">Новости</a></li>
+        <li><a href="http://ya.ru">Яндекс</a></li>
+        <li><a href="https://mail.ya.ru">Яндекс.Почта</a></li>
+        <li><a href="http://maps.yandex.ru" target="_blank">Яндекс.Почта</a></li>
+        <li><a href="http://google.com">Google</a></li>
+        <li><a href="http://maps.google.com">Google Maps</a></li>
+        <li><a href="http://news.google.com">Google News</a></li>
+    </ul>
+</div>
+
+</body>
+</html>
