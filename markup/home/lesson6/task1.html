@@ -4,20 +4,262 @@
     <meta charset="UTF-8">
     <title>Task1Lesson6</title>
 <style>
-    h1{
+    .header{
         text-transform: uppercase;
         text-align: center;
         font-weight: bold;
+        padding: 40px;
+
     }
+    .blue, .orange, .bluegreen{
+        display: inline-block;
+        float: left;
+        position: absolute;
+        min-width: 200px;
+        white-space: nowrap;
+        float: 200px;
+    }
+    .blue{
+        position: relative;
+        height: 360px;
+        width: 200px;
+        background:deepskyblue;
+        border-radius: 5px;
+        display: flex;
+        flex: 5;
+    }
+    .bluetxt{
+        font-size: 20px;
+        color: #f2f2de;
+        font-weight: bold;
+        position: absolute;
+        left: 40px;
+        top: 25px;
+    }
+
+    .bnum {
+        position: relative;
+        font-size: 35px;
+        font-weight: bold;
+        left: 55px;
+        padding-top: 5px;
+        width: 120px;
+    }
+    .bnum1{
+        font-weight: bold;
+        left: -5px;
+        top: 5px;
+        font-size: 15px;
+        position: absolute;
+    }
+    .bnum2{
+        font-weight: bold;
+        font-size: 15px;
+        position: absolute;
+        left: 40px;
+        bottom: 2px;
+    }
+
+    .orange{
+        position: relative;
+        display: block;
+        height: 360px;
+        width: 200px;
+        background:orange;
+        border-radius: 5px;
+    }
+    .orangetxt{
+        font-size: 20px;
+        color: #f2f2de;
+        font-weight: bold;
+        position: absolute;
+        left: 40px;
+        top: 25px;
+    }
+    .white {
+        margin: 3px;
+        display: block;
+        background: white;
+        height: 300px;
+        width: 194px;
+        position: absolute;
+        bottom: 0px;
+    }
+
+    .d1 {
+        text-align: center;
+        position: static;
+        background: none;
+        margin-top: 20px;
+    }
+
+    .onum {
+        position: relative;
+        font-size: 40px;
+        font-weight: bold;
+        left: 55px;
+        padding-top: 5px;
+        width: 120px;
+    }
+    .onum1{
+        font-weight: bold;
+        left: -5px;
+        top: 5px;
+        font-size: 15px;
+        position: absolute;
+    }
+    .onum2{
+        font-weight: bold;
+        font-size: 15px;
+        position: absolute;
+        left: 40px;
+        bottom: 2px;
+    }
+    .list {
+        position: relative;
+        width: 215px;
+        top: 5px;
+        left: -30px;
+        color: grey;
+        font-size: 15px;
+        padding-top:10px;
+    }
+    ul {
+        list-style-position: inside;
+        list-style-image: url('http://abali.ru/wp-content/uploads/2011/03/galochka-check_24x24.png');
+    }
+
+    .list li:nth-child(2n-1) {
+        background-color: #ddebf7;
+    }
+
+    .list li:nth-child(2n) {
+        background-color: #f2f2de;
+    }
+    .bluegreen{
+        position: relative;
+        display: block;
+        height: 360px;
+        width: 200px;
+        background:lightseagreen;
+        border-radius: 5px;
+        flex: 20px;
+    }
+    .bluegreentxt{
+        font-size: 20px;
+        color: #f2f2de;
+        font-weight: bold;
+        position: absolute;
+        left: 40px;
+        top: 25px;
+    }
+    .bgnum {
+        position: relative;
+        font-size: 35px;
+        font-weight: bold;
+        left: 55px;
+        padding-top: 5px;
+        width: 120px;
+    }
+    .bgnum1{
+        font-weight: bold;
+        left: -5px;
+        top: 5px;
+        font-size: 15px;
+        position: absolute;
+    }
+    .bgnum2{
+        font-weight: bold;
+        font-size: 15px;
+        position: absolute;
+        left: 40px;
+        bottom: 2px;
+    }
+
+    .orangebutton{
+        background-color: orange;
+        color: white;
+        position: relative;
+        width: 180px;
+        height: 40px;
+        left: 7px;
+        top: 10px;
+    }
+    .bluetxt, .orangetxt, .bluegreentxt {
+        text-transform: uppercase;
+    }
+    .bluebutton{
+        background-color: dodgerblue;
+        color: white;
+        position: relative;
+        width: 180px;
+        height: 40px;
+        left: 7px;
+        top: 10px;
+        position: relative;
+    }
+
 </style>
 </head>
 <body>
-<h1>we have a very flexible offers for you to choose</h1>
+<div class="header">we have a very flexible offers for you to choose</div>
 <div class="blue">
     <div class="bluetxt">standart</div>
     <div class="white">
         <div class="d1">ICONIC GRAPHICS</div>
-        <div class="d2">10<div class="d21">$
+        <div class="bnum">10
+            <div class="bnum1">$</div>
+            <div class="bnum2">Mounthly</div>
+            </div>
+        <div class="list">
+            <ul>
+                <li>Unmetered Traffic</li>
+                <li>Unlimited Domain</li>
+                <li>Unlimited Database</li>
+                <li>Unlimited e-Mails</li>
+            </ul>
+        </div>
+        <button class="bluebutton">Enroll Today</button>
+    </div>
 </div>
+<div class="orange">
+    <div class="orangetxt">best value</div>
+    <div class="white">
+        <div class="d1">ICONIC GRAPHICS</div>
+        <div class="onum">25
+            <div class="onum1">$</div>
+            <div class="onum2">Mounthly</div>
+        </div>
+        <div class="list">
+            <ul>
+                <li>PHP, PERL, ASP, JSP</li>
+                <li>SEMI DEDICATED</li>
+                <li>Steding or Prodaction</li>
+                <li>Unlimited e-Mails</li>
+            </ul>
+        </div>
+        <button class="orangebutton">Enroll Today</button>
+    </div>
+</div>
+<div class="bluegreen">
+    <div class="bluegreentxt">ultimate</div>
+    <div class="white">
+        <div class="d1">ICONIC GRAPHICS</div>
+        <div class="bgnum">35
+            <div class="bgnum1">$</div>
+            <div class="bgnum2">Mounthly</div>
+        </div>
+        <div class="list">
+            <ul>
+                <li>Semi Dedicated</li>
+                <li>ITB Storege</li>
+                <li>Faster Site, Better SEO</li>
+                <li>Unlimited e-Mails</li>
+            </ul>
+        </div>
+        <button class="bluebutton">Enroll Today</button>
+    </div>
+</div>
+
 </body>
 </html>
