@@ -9,18 +9,16 @@
             display: block;
             height: 360px;
             width: 200px;
-            background:#ff7e2e;
+            background:orange;
             border-radius: 5px;
         }
         .child{
-            text-transform: uppercase;
-            font-family:Trebuchet MS;
             font-size: 20px;
             color: #f2f2de;
             font-weight: bold;
             position: absolute;
-            left: 48px;
-            top: 15px;
+            left: 40px;
+            top: 25px;
 
         }
 
@@ -29,7 +27,7 @@
             display: block;
             background: white;
             height: 300px;
-            width: 195px;
+            width: 194px;
             position: absolute;
             bottom: 0px;
         }
@@ -39,7 +37,6 @@
             position: static;
             background: none;
             margin-top: 20px;
-            font-family:Trebuchet MS;
         }
 
         .d2 {
@@ -49,8 +46,6 @@
             left: 55px;
             padding-top: 5px;
             width: 120px;
-            font-family:Trebuchet MS;
-            color: #41525c;
         }
         .d21{
             font-weight: bold;
@@ -58,8 +53,6 @@
             top: 5px;
             font-size: 15px;
             position: absolute;
-            font-family:Trebuchet MS;
-            color: #41525c;
         }
         .d22{
             font-weight: bold;
@@ -67,41 +60,37 @@
             position: absolute;
             left: 40px;
             bottom: 2px;
-            font-family:Trebuchet MS;
-            color: #41525c;
         }
 
-        .list {
+        .d3 {
             position: relative;
-            width: 216px;
+            width: 200px;
             top: 5px;
-            left: -31px;
+            right: 10px;
             color: grey;
-            font-size: 14px;
-            padding-top:20px;
-            font-family:Trebuchet MS;
+            font-size: 15px;
+            padding-top:5px;
         }
         ul {
             list-style-image: url('http://abali.ru/wp-content/uploads/2011/03/galochka-check_24x24.png');
-            list-style-position: inside;
         }
 
-        .list li:nth-child(2n-1) {
+        .d3 li:nth-child(2n-1) {
             background-color: #ddebf7;
         }
 
-        .list li:nth-child(2n) {
+        .d3 li:nth-child(2n) {
             background-color: #f2f2de;
         }
 
         button {
-            background-color: #ff7e2e;
+            background-color: orange;
             color: white;
             position: relative;
             width: 180px;
-            height: 30px;
+            height: 40px;
             left: 7px;
-            top: 5px;
+            top: 10px;
         }
 
     </style>
@@ -115,17 +104,19 @@
         <div class="d21">$</div>
 
         <div class="d22">Mounthly</div>
-    </div>
-        <div class="list">
-            <ul>
-                <li>PHP, PERL, ASP, JSP</li>
-                <li>SEMI DEDICATED</li>
-                <li>Steding or Prodaction</li>
-                <li>Unlimited e-Mails</li>
-            </ul>
+            </div>
+
+        <div class="d3">
+                        <ul>
+                            <li>PHP, PERL, ASP, JSP</li>
+                            <li>SEMI DEDICATED</li>
+                            <li>Steding or Prodaction</li>
+                            <li>Unlimited e-Mails</li>
+                        </ul>
         </div>
-        <button>Enroll Today</button>
+        <div style="position:absolute;"><button>Enroll Today</button></div>
     </div>
 </div>
+
 </body>
 </html>
