@@ -3,8 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <title></title>
-</head>
-<body>
+    <style>
+        .background{
+            background:url('../../../images/bg-testimonials.png');
+            width: 100%;
+            height: 320px;
+        }
+        img{
+            float: left;
+            margin-right: 25px;
+        }
 
+        .tittle{
+            text-transform: uppercase;
+            color: dodgerblue;
+            font-family: Arial;
+            text-align: center;
+            font-size: 40px;
+            font-weight: 300px;
+            padding-top: 49px;
+            margin-top: 0;
+        }
+        .says{
+            width: 480px;
+            text-align: left;
+            display: inline-block;
+            overflow: hidden;
+            position: relative;
+            margin-right: 39px;
+        }
+        .says:after{
+            margin-top: -12px;
+            position: absolute;
+            top: 50px;
+            left: 109px;
+            content: url('../../../images/arrow.png');
+        }
+        .comment{
+            font-size: 13px;
+            padding: 15px 17px 14px 14px;
+            overflow: hidden;
+            position: relative;
+            background: #f7f7f7;
+            border: 1px #e0e0e0 solid;
+        }
+        .comment .name{
+            float:left;
+        }
+        .comment .name:before {
+            content: '- ';
+        }
+        .comment .who{
+            float: right;
+        }
+        .comment .text{
+            clear: both;
+        }
+        .tittle strong{
+            color:#ee8129;
+        }
+    </style>
+</head>
+<body>.
+<div class="background">
+    <img src="../../../images/bg-testimonials.png">
+    <h1 class="tittle"><strong>what</strong> client says</h1>
+    <div class="comment">
+        <img src="../../../images/clientpic-1.png">
+        <div class="says">
+            <div class="name">Staciya Trollio</div>
+            <div class="who">Customer</div>
+            <div class="text">Lorem Ipsum is simply dummy text of the printing
+                and industry. Lorem Ipsum has been the industry</div>
+        </div>
+    </div>
+    <div class="comment">
+        <img src="../../../images/clientpic-2.png">
+        <div class="says">
+            <div class="name">David Soul</div>
+            <div class="who">Customer</div>
+            <div class="text">Lorem Ipsum is simply dummy text of the printing
+                and industry. Lorem Ipsum has been the industry</div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
