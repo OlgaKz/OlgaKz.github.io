@@ -4,22 +4,22 @@
     <meta charset="UTF-8">
     <title></title>
     <style>
-        .parent {
+        .orange {
             position: relative;
             display: block;
             height: 360px;
             width: 200px;
-            background:orange;
+            background:#ff7e2e;
             border-radius: 5px;
         }
-        .child{
+        .orangename{
             font-size: 20px;
             color: #f2f2de;
             font-weight: bold;
             position: absolute;
             left: 40px;
             top: 25px;
-
+            font-family:Trebuchet MS;
         }
 
         .white {
@@ -32,81 +32,91 @@
             bottom: 0px;
         }
 
-        .d1 {
+        .whitename {
             text-align: center;
-            position: static;
             background: none;
             margin-top: 20px;
+            font-family:Trebuchet MS;
         }
 
-        .d2 {
+        .price {
             position: relative;
             font-size: 40px;
             font-weight: bold;
             left: 55px;
             padding-top: 5px;
             width: 120px;
+            font-family:Trebuchet MS;
+            color: #41525c;
         }
-        .d21{
+        .symbol{
             font-weight: bold;
             left: -5px;
             top: 5px;
             font-size: 15px;
             position: absolute;
+            font-family:Trebuchet MS;
+            color: #41525c;
         }
-        .d22{
+        .data{
             font-weight: bold;
             font-size: 15px;
             position: absolute;
             left: 40px;
             bottom: 2px;
+            font-family:Trebuchet MS;
+            color: #41525c;
         }
 
-        .d3 {
+        .list {
             position: relative;
-            width: 200px;
+            width: 216px;
             top: 5px;
-            right: 10px;
+            left: -31px;
             color: grey;
-            font-size: 15px;
-            padding-top:5px;
+            font-size: 14px;
+            padding-top:10px;
+            font-family:Trebuchet MS;
         }
         ul {
+            list-style-position: inside;
             list-style-image: url('http://abali.ru/wp-content/uploads/2011/03/galochka-check_24x24.png');
         }
 
-        .d3 li:nth-child(2n-1) {
+        .list li:nth-child(2n-1) {
             background-color: #ddebf7;
         }
 
-        .d3 li:nth-child(2n) {
+        .list li:nth-child(2n) {
             background-color: #f2f2de;
         }
 
         button {
-            background-color: orange;
+            background:#ff7e2e;
             color: white;
             position: relative;
             width: 180px;
             height: 40px;
             left: 7px;
             top: 10px;
+            font-family:Trebuchet MS;
+
         }
 
     </style>
 </head>
 <body>
-<div class="parent">
-    <div class="child">BEST VALUE</div>
+<div class="orange">
+    <div class="orangename">BEST VALUE</div>
     <div class="white">
-        <div class="d1">ICONIC GRAPHICS</div>
-        <div class="d2">25
-        <div class="d21">$</div>
+        <div class="whitename">ICONIC GRAPHICS</div>
+        <div class="price">25
+        <div class="symbol">$</div>
 
-        <div class="d22">Mounthly</div>
+        <div class="data">Mounthly</div>
             </div>
 
-        <div class="d3">
+        <div class="list">
                         <ul>
                             <li>PHP, PERL, ASP, JSP</li>
                             <li>SEMI DEDICATED</li>
@@ -114,7 +124,7 @@
                             <li>Unlimited e-Mails</li>
                         </ul>
         </div>
-        <div style="position:absolute;"><button>Enroll Today</button></div>
+        <div><button>Enroll Today</button></div>
     </div>
 </div>
 
