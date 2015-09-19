@@ -16,9 +16,9 @@
     .companyname{
         width: 253px;
         height: 34px;
-        top: 5px;
+        top: 25px;
         position: relative;
-        left: 120px;
+        left: 190px;
     }
     h1{
         color: #3070a8;
@@ -40,10 +40,12 @@
         font-size: 12px;
         font-family: 'Myriad Pro', Arial, sans-serif;
         margin-right: 30px;
-        bottom: 10px;
+        bottom: 40px;
+        padding-bottom: 25px;
     }
     li:hover{
         border-bottom: solid 3px #3070a8;
+
     }
     a:hover{
         color: #3070a8;
@@ -54,6 +56,54 @@
     a{
         text-decoration: none;
         color:#9f9f9f;
+    }
+    .banner{
+        background: url('../../../images/bg_header.png');
+        height: 535px;
+        margin-top: 18px;
+    }
+
+    button{
+        text-transform: uppercase;
+        color: #eeeeee;
+        background: chocolate;
+        height: 47px;
+        width: 240px;
+        font-family: 'Myriad Pro', Arial, sans-serif;
+        position: absolute;
+        left: 530px;
+        top: 550px;
+        border: none;
+    }
+    h2{
+       text-align: center;
+        color: #ddebf7;
+        text-transform: uppercase;
+        font-family: Calibri, sans-serif;
+        width: 810px;
+        font-size: 44px;
+        position: absolute;
+        left: 260px;
+        top:300px;
+    }
+    p{
+        position: absolute;
+        left: 520px;
+        top: 255px;
+        font-size: 35px;
+        color: #ddebf7;
+        font-family: Calibri, sans-serif;
+
+    }
+    .comment{
+        position: absolute;
+        left: 380px;
+        top: 450px;
+        font-size: 17px;
+        color: #ddebf7;
+        width: 550px;
+        font-family: Calibri, sans-serif;
+        text-align: center;
     }
 
 </style>
@@ -82,6 +132,15 @@
             <a href="#">home</a>
         </li>
 </ul>
+</div>
+<div class="banner">
+    <div class="textbanner">
+        <p> We are specialist in</p>
+        <h2>responsive designs, stationary and wordpress themes</h2>
+        <p class="comment"><i>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.
+        </i></p>
+    </div>
+    <button class="button">button name</button>
 </div>
 </body>
 </html>
