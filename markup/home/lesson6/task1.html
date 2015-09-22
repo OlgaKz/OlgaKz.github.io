@@ -3,175 +3,171 @@
 <head>
     <meta charset="UTF-8">
     <title>Task1Lesson6</title>
-<style>
-    h1{
-        text-transform: uppercase;
-        text-align: center;
-        font-weight: bold;
-        padding: 40px;
-        font-family:Trebuchet MS;
-    }
-    .blue, .orange, .bluegreen{
-        display: inline-block;
-        float: left;
-        position: absolute;
-        min-width: 200px;
-        white-space: nowrap;
+    <style>
+        .offers{
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: bold;
+            padding: 40px;
+            font-family:Trebuchet MS;
+            color:#41525c;
+        }
+        .blue, .orange, .bluegreen{
+            float: left;
+        }
+        .blue{
+            position: relative;
+            height: 472px;
+            width: 298px;
+            background:deepskyblue;
+            margin-left: 200px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .orange{
+            position: relative;
+            display: block;
+            height: 472px;
+            width: 298px;
+            background: #ff7e2e;
+            border-radius: 5px;
+        }
+        .bwhite{
+            display: block;
+            background: white;
+            height: 390px;
+            width: 298px;
+            position: absolute;
+            bottom: 0px;
+        }
+        .white{
+            margin: 3px;
+            display: block;
+            background: white;
+            height: 376px;
+            width: 290px;
+            position: absolute;
+            bottom: 0px;
+        }
+        .whitename {
+            margin-left: 13px;
+            font-size: 24px;
+            text-align: center;
+            background: none;
+            margin-top: 16px;
+            font-family: Trebuchet MS;
+        }
+        .list {
+            position: relative;
+            width: 285px;
+            top: 3px;
+            left: -15px;
+            color: grey;
+            font-size: 16px;
+            padding-top: 10px;
+            font-family: Trebuchet MS;
+        }
+        .offers-list {
+            list-style-position: inside;
+            list-style-image: url('../../../images/marker.png');
+        }
+        .offers-list-item{
+            padding: 7px;
+        }
+        .offers-list-item:nth-child(2n-1) {
+            background-color: #ddebf7;
+        }
+        .offers-list-item:nth-child(2n) {
+            background-color: #f2f2de;
+        }
+        .bluegreen{
+            position: relative;
+            display: block;
+            height: 472px;
+            width: 298px;
+            background:lightseagreen;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .price{
+            position: relative;
+            font-size: 72px;
+            font-weight: bold;
+            left: 82px;
+            padding-top: 10px;
+            width: 120px;
+            font-family: Trebuchet MS;
+            color: #41525c;
+        }
+        .symbol{
+            font-weight: bold;
+            left: -11px;
+            top: 20px;
+            font-size: 21px;
+            position: absolute;
+            font-family: Trebuchet MS;
+            color: #41525c;
+        }
+        .data{
+            font-weight: bold;
+            font-size: 17px;
+            position: absolute;
+            left: 78px;
+            bottom: 3px;
+            font-family: Trebuchet MS;
+            color: #41525c;
+        }
+        .orangebutton{
+            font-size: 18px;
+            background: #ff7e2e;
+            color: white;
+            position: relative;
+            width: 258px;
+            height: 40px;
+            left: 15px;
+            top: 1px;
+            font-family: Trebuchet MS;
+        }
+        .name {
+            font-size: 24px;
+            color: #f2f2de;
+            font-weight: bold;
+            position: absolute;
+            left: 86px;
+            top: 28px;
+            text-transform: uppercase;
+            font-family: Trebuchet MS;
+        }
+        .bluebutton{
+            font-size: 18px;
+            background-color: dodgerblue;
+            color: white;
+            position: relative;
+            width: 258px;
+            height: 40px;
+            left: 15px;
+            top: 2px;
+            font-family: Trebuchet MS;
 
-    }
-    .blue{
-        position: relative;
-        height: 290px;
-        width: 200px;
-        background:deepskyblue;
-        margin-left: 350px;
-        border-radius: 2px;
-        margin-top: 10px;
-    }
-    .orange{
-        position: relative;
-        display: block;
-        height: 360px;
-        width: 200px;
-        background:#ff7e2e;
-        border-radius: 5px;
-    }
-
-    .bwhite{
-        display: block;
-        background: white;
-        height: 242px;
-        width: 200px;
-        position: absolute;
-        bottom: 0px;
-
-    }
-    .white {
-        margin: 3px;
-        display: block;
-        background: white;
-        height: 300px;
-        width: 195px;
-        position: absolute;
-        bottom: 0px;
-    }
-
-    .d1 {
-        text-align: center;
-        position: static;
-        background: none;
-        margin-top: 20px;
-        font-family:Trebuchet MS;
-    }
-
-    .list {
-        position: relative;
-        width: 216px;
-        top: 5px;
-        left: -31px;
-        color: grey;
-        font-size: 14px;
-        padding-top:10px;
-        font-family:Trebuchet MS;
-    }
-    ul {
-        list-style-position: inside;
-        list-style-image: url('http://abali.ru/wp-content/uploads/2011/03/galochka-check_24x24.png');
-    }
-
-    .list li:nth-child(2n-1) {
-        background-color: #ddebf7;
-    }
-
-    .list li:nth-child(2n) {
-        background-color: #f2f2de;
-    }
-    .bluegreen{
-        position: relative;
-        display: block;
-        height: 290px;
-        width: 200px;
-        background:lightseagreen;
-        border-radius: 5px;
-        margin-top: 10px;
-    }
-
-    .num{
-        position: relative;
-        font-size: 35px;
-        font-weight: bold;
-        left: 55px;
-        padding-top: 5px;
-        width: 120px;
-        font-family:Trebuchet MS;
-        color: #41525c;
-    }
-    .num1{
-        font-weight: bold;
-        left: -5px;
-        top: 5px;
-        font-size: 15px;
-        position: absolute;
-        font-family:Trebuchet MS;
-    }
-    .num2{
-        font-weight: bold;
-        color: #41525c;
-        font-size: 15px;
-        position: absolute;
-        left: 40px;
-        bottom: 2px;
-        font-family:Trebuchet MS;
-    }
-
-    .orangebutton{
-        background-color: #ff7e2e;
-        color: white;
-        position: relative;
-        width: 180px;
-        height: 30px;
-        left: 7px;
-        top: 5px;
-    }
-    .name {
-        text-transform: uppercase;
-        font-family:Trebuchet MS;
-        font-size: 20px;
-        color: #f2f2de;
-        font-weight: bold;
-        position: absolute;
-        left: 48px;
-        top: 15px;
-    }
-    .bluebutton{
-        background-color: dodgerblue;
-        color: white;
-        position: relative;
-        width: 180px;
-        height: 30px;
-        left: 7px;
-        top: 10px;
-        position: relative;
-    }
-
-</style>
+        }
+    </style>
 </head>
 <body>
-<h1>we have a very flexible offers for you to choose</h1>
+<h1 class="offers">we have a very flexible offers for you to choose</h1>
 <div class="blue">
     <div class="name">standart</div>
     <div class="bwhite">
-        <div class="d1">ICONIC GRAPHICS</div>
-        <div class="num">10
-            <div class="num1">$</div>
-            <div class="num2">Mounthly</div>
-            </div>
+        <div class="whitename">ICONIC GRAPHICS</div>
+        <div class="price">10
+            <div class="symbol">$</div>
+            <div class="data">Mounthly</div>
+        </div>
         <div class="list">
-            <ul>
-                <li>Unmetered Traffic</li>
-                <li>Unlimited Domain</li>
-                <li>Unlimited Database</li>
-                <li>Unlimited e-Mails</li>
+            <ul class="offers-list">
+                <li class="offers-list-item">Unmetered Traffic</li>
+                <li class="offers-list-item">Unlimited Domain</li>
+                <li class="offers-list-item">Unlimited Database</li>
+                <li class="offers-list-item">Unlimited e-Mails</li>
             </ul>
         </div>
         <button class="bluebutton">Enroll Today</button>
@@ -180,17 +176,17 @@
 <div class="orange">
     <div class="name">best value</div>
     <div class="white">
-        <div class="d1">ICONIC GRAPHICS</div>
-        <div class="num">25
-            <div class="num1">$</div>
-            <div class="num2">Mounthly</div>
+        <div class="whitename">ICONIC GRAPHICS</div>
+        <div class="price">25
+            <div class="symbol">$</div>
+            <div class="data">Mounthly</div>
         </div>
         <div class="list">
-            <ul>
-                <li>PHP, PERL, ASP, JSP</li>
-                <li>SEMI DEDICATED</li>
-                <li>Steding or Prodaction</li>
-                <li>Unlimited e-Mails</li>
+            <ul class="offers-list">
+                <li class="offers-list-item">PHP, PERL, ASP, JSP</li>
+                <li class="offers-list-item">SEMI DEDICATED</li>
+                <li class="offers-list-item">Steding or Prodaction</li>
+                <li class="offers-list-item">Unlimited e-Mails</li>
             </ul>
         </div>
         <button class="orangebutton">Enroll Today</button>
@@ -199,22 +195,23 @@
 <div class="bluegreen">
     <div class="name">ultimate</div>
     <div class="bwhite">
-        <div class="d1">ICONIC GRAPHICS</div>
-        <div class="num">35
-            <div class="num1">$</div>
-            <div class="num2">Mounthly</div>
+        <div class="whitename">ICONIC GRAPHICS</div>
+        <div class="price">35
+            <div class="symbol">$</div>
+            <div class="data">Mounthly</div>
         </div>
         <div class="list">
-            <ul>
-                <li>Semi Dedicated</li>
-                <li>ITB Storege</li>
-                <li>Faster Site, Better SEO</li>
-                <li>Unlimited e-Mails</li>
+            <ul class="offers-list">
+                <li class="offers-list-item">Semi Dedicated</li>
+                <li class="offers-list-item">ITB Storege</li>
+                <li class="offers-list-item">Faster Site, Better SEO</li>
+                <li class="offers-list-item">Unlimited e-Mails</li>
             </ul>
         </div>
         <button class="bluebutton">Enroll Today</button>
     </div>
 </div>
+
 
 </body>
 </html>
