@@ -473,7 +473,61 @@
         left: 108px;
         content: url('../../../images/arrow.png');
     }
-
+    .info{
+        background: url('../../../images/map.png');
+    }
+    .list-adress{
+        list-style-type: none;
+        color: #666;
+        font-family: 'Trebuchet MS', 'sans-serif';
+        margin-top: 40px;
+        padding-left: 250px;
+    }
+    .list-adress li{
+        padding: 7px;0;7px;20px;
+    }
+    .list-adress li:nth-child(1):before {
+        content: url('../../../images/marker%20(1).png');
+        position: absolute;
+        left: 180px;
+    }
+    .phone-info{
+        color: #666;
+        font-family: 'Trebuchet MS', 'sans-serif';
+        margin-top: 20px;
+        padding-left: 250px;
+    }
+    .phone-info:before{
+        content:url('../../../images/phone.png');
+        position: absolute;
+        left: 180px;
+    }
+    .mail-info{
+        color: #666;
+        font-family: 'Trebuchet MS', 'sans-serif';
+        margin-top: 30px;
+        padding-left: 250px;
+    }
+    .mail-info:before{
+        content: url('../../../images/letter.png');
+        position: absolute;
+        left: 180px;
+    }
+    .social-item{
+        margin-top: 35px;
+        padding-left: 100px;
+    }
+    .footer{
+        background-color: #3070a8;
+        height: 130px;
+    }
+    .footer-text{
+        color: white;
+        text-align: center;
+        font-family: "Open Sans", Arial, sans-serif;
+        font-weight: normal;
+        padding-top: 25px;
+    }
 </style>
 <body>
 <div class="header">
@@ -634,35 +688,43 @@
 <div class="info">
     <div class="contact">
         <div class="adress">
-            <img class="adress-img" src="../../../images/marker%20(1).png">
             <ul class="list-adress">
-                <li class="list-adress-item"></li>
-                <li class="list-adress-item"></li>
-                <li class="list-adress-item"></li>
-                <li class="list-adress-item"></li>
+                <li class="list-adress-item">
+                    Iconic Graphics
+                </li>
+                <li class="list-adress-item">
+                    123 Main Street
+                </li>
+                <li class="list-adress-item">
+                    East West
+                </li>
+                <li class="list-adress-item">
+                    LHR 54500
+                </li>
             </ul>
         </div>
         <div class="phone">
-            <img class="phone-img" src="../../../images/phone.png">
-            <p class="phone-info">
-
+            <p class="phone-info">012.345.6789
             </p>
         </div>
         <div class="mail">
-            <img class="mail-img" src="../../../images/letter.png">
             <p class="mail-info">
-
+            info@iconicgraphics.com
             </p>
         </div>
         <div class="social-item">
-            <img class="fb" src="../../../images/facebook.png">
-            <img class="tw" src="../../../images/twitter.png">
-            <img class="ln" src="../../../images/linked.png">
-        </div>
-        <div class="map">
-            <img class="map-img" src="../../../images/map.png">
+            <a target="_blank" href="https://www.facebook.com">
+            <img class="fb" src="../../../images/facebook.png"></a>
+            <a target="_blank" href="https://twitter.com/">
+            <img class="tw" src="../../../images/twitter.png"></a>
+            <a target="_blank" href="https://www.linkedin.com/">
+            <img class="ln" src="../../../images/linked.png"></a>
         </div>
     </div>
+</div>
+<div class="footer">
+    <p class="footer-text">Copyright © 2014 <span>Company Name</span>. All rights reserved.</p>
+    <p class="footer-text">Designed by <a href="http://www.iconicgraphics.com/" target="_blank">IconicGraphics.com</a></p>
 </div>
 </body>
 </html>
