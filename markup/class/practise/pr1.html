@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<style>
+    .cont {
+        width: 100%;
+        font-family: Arial;
+    }
+
+    .imeg {
+        vertical-align: top;
+    }
+
+    img {
+        border-radius: 5px;
+    }
+
+    .title:nth-child(even).imeg {
+        left: 20px;
+    }
+
+    .txt:after {
+        clear: both;
+        content: '';
+        display: block;
+    }
+    .imeg, .title, .text{
+        display: inline-block;
+    }
+
+    .win1, .win3, .win2, .win4 {
+        width: 48%;
+        padding: 2%;
+        float: left;
+    }
+
+    .title {
+        display: inline-block;
+    }
+
+</style>
+<body>
+<div class="cont">
+    <div class="win1">
+            <img src="http://lorempixel.com/output/people-q-c-85-85-6.jpg" alt="people">
+            <h2 class="title">"People Say"</h2>
+            <p class="text">Save me, I can't be saved
+                I won't
+                I'm a president's son
+                I don't need no soul</p>
+    </div>
+    <div class="win2">
+        <div class="imeg">
+            <img src="http://lorempixel.com/output/people-q-c-85-85-9.jpg" alt="people"></div>
+        <div class="txt">
+            <h2 class="title">"All the soldiers say"</h2>
+
+            <p>"It'll be alright,
+                we may make it through the war
+                if we make it through the night."</p></div>
+    </div>
+    <div class="win3">
+        <div class="imeg">
+            <img src="http://lorempixel.com/output/people-q-c-85-85-3.jpg" alt="people"></div>
+        <div class="txt">
+            <h2 class="title">"All the people, they say:"</h2>
+
+            <p>"What a lovely day, yeah, we won the war.
+                May have lost a million men, but we've got a million more."</p>
+        </div>
+        <div class="win4">
+            <div class="imeg">
+                <img src="http://lorempixel.com/output/people-q-c-85-85-3.jpg" alt="people"></div>
+            <div class="txt">
+                <h2 class="title">"All the people, they say:"</h2>
+
+                <p>Save me, I can't be saved
+                    I won't
+                    I don't need no love
+                    I'm a president's son</p></div>
+        </div>
+    </div>
+</body>
