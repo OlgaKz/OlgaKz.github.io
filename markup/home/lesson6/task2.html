@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <title></title>
     <style>
-        .background{
+        body{
+            margin: 0;
+        }
+        .bg-testimonials{
             background:url('../../../images/bg-testimonials.png');
             width: 100%;
-            height: 320px;
         }
 
         .tittle{
@@ -16,7 +18,7 @@
             font-family: "Trebuchet MS","sans-serif";
             text-align: center;
             font-size: 25px;
-            font-weight: 300px;
+            font-weight: 300;
             padding-top: 29px;
             left: 40%;
             margin-top: 0;
@@ -25,120 +27,102 @@
         .tittle strong{
             color: #ff7e2e;
         }
-        .people{
+        .user{
             width: 100%;
-            height: 300px;
+            margin: 0 auto;
         }
-        .peoplecomment{
+        .userblog{
             width: 489px;
-            height: 200px;
+            height: 180px;
             display: inline-block;
         }
-        .imgwoman{
-            background: url('../../../images/clientpic-1.png');
+        .image{
             position: relative;
             height: 98px;
             width: 99px;
-            margin-left: 130px;
+            display: inline-block;
+            padding-left: 185px;
         }
-        .imgman{
-            background: url('../../../images/clientpic-2.png');
-            position: relative;
-            height: 98px;
-            width: 99px;
-            margin-left: 180px;
-        }
-
-        .man{
+        .userinfo{
             background: white;
-            width: 364px;
+            width: 345px;
             height: 98px;
             position: absolute;
-            padding-right: 10px;
-            left: 807px;
-            top: 164px;
-            padding-left: 10px;
 
-
-
+            top: 155px;
+            padding-left: -10px;
         }
-        .woman{
+        .userinfo{
             background: white;
-            width: 364px;
+            width: 345px;
             height: 98px;
             position: absolute;
-            padding-right: 10px;
-           left: 262px;
-            margin-right: 16px;
-            top: 164px;
-            padding-left: 10px;
-
+            left: 300px;
+            top: 155px;
+            padding-left: -10px;
         }
-        .peoplename:before{
+        .username:before{
         content:'- ';
         }
-        .peoplename{
+        .username{
            float: left;
             text-decoration: none;
             color: #3070a8;
             font-style: italic;
             font-size: 12px;
+            padding-left: 5px;
         }
         .who{
             float: right;
             font-style: italic;
             font-size: 12px;
+            padding-right: 5px;
+            text-decoration: none;
+            color: #3070a8;
         }
         .dot{
-            position: absolute;
-            top: 7px;
-            left: 3px;
+
         }
         .text{
             position: absolute;
-            font-size: 12px;
+            font-size: 14px;
             top: 32px;
             left: 20px;
-            padding-right: 12px;
+            color: #666666;
+            line-height: 1.4;
+            font-family:'Trebuchet MS', 'sans-serif';
         }
-
-        .imgman:after {
+        .image:after {
             margin-top: -12px;
             position: absolute;
             top: 50%;
-            left: 109px;
-            content: url('../../../images/arrow.png');
-        }
-        .imgwoman:after {
-            margin-top: -12px;
-            position: absolute;
-            top: 50%;
-            left: 109px;
             content: url('../../../images/arrow.png');
         }
     </style>
 </head>
 <body>
-<div class="background">
+<div class="bg-testimonials">
     <div class="tittle">
         <h1><strong>what</strong> client says</h1></div>
-    <div class="people">
-    <div class="peoplecomment">
-        <div class="imgwoman"></div>
-        <div class="woman">
-            <div class="trianglew"></div>
-            <p class="peoplename">Staciya Trollio</p>
+    <div class="user">
+    <div class="userblog">
+        <div class="image">
+            <img src='../../../images/clientpic-1.png'>
+        </div>
+        <div class="userinfo">
+            <p class="username">Staciya Trollio</p>
             <p class="who">Customer</p>
-            <p class="dot">................................................................</p>
+            <div class="dot">................................................................</div>
             <p class="text">Lorem Ipsum is simply dummy text of the printing
                 and industry. Lorem Ipsum has been the industry</p>
         </div>
     </div>
-    <div class="peoplecomment">
-        <div class="imgman"></div>
-        <div class="trianglem"></div>
-        <div class="man">
-            <p class="peoplename">David Soul</p>
+    <div class="userblog">
+        <div class="image">
+            <img src='../../../images/clientpic-2.png'>
+        </div>
+        <div class="userinfo">
+            <p class="username">David Soul</p>
             <p class="who">Customer</p>
             <p class="dot">.................................................................</p>
             <p class="text">Lorem Ipsum is simply dummy text of the printing
