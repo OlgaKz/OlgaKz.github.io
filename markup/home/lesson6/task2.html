@@ -30,9 +30,16 @@
         .user{
             width: 100%;
         }
-        .userblog{
+        .userblog1{
             height: 180px;
-            margin-left: 105px;
+            margin-left: 155px;
+            display: inline-flex;
+            min-width: 365px;
+        }
+        .userblog2{
+            min-width: 365px;
+            height: 180px;
+            margin-left: 40px;
             display: inline-flex;
         }
         .image{
@@ -57,26 +64,32 @@
             text-decoration: none;
             color: #3070a8;
             font-style: italic;
-            font-size: 12px;
-            padding-left: 5px;
+            font-size: 11px;
+            padding-left: 15px;
         }
         .user-type{
             float: right;
             font-style: italic;
-            font-size: 12px;
-            padding-right: 5px;
+            font-size: 11px;
+            padding-right: 20px;
             text-decoration: none;
             color: #3070a8;
         }
+        .userinfo-header{
+            overflow: hidden;
+        }
         .dotes{
             font-family: Arial;
-            margin-top: 10px;
-
+            margin: 0;
+            padding-left: 10px;
         }
         .text{
-            font-size: 14px;
+            font-size: 13px;
             color: #666666;
             font-family:'Trebuchet MS', 'sans-serif';
+            margin: 0;
+            padding-left: 10px;
+            padding-bottom: 10px;
         }
         .image:after {
             margin-left: 8px;
@@ -92,26 +105,30 @@
     <div class="tittle">
         <h1><strong>what</strong> client says</h1></div>
     <div class="user">
-    <div class="userblog">
+    <div class="userblog1">
         <div class="image">
             <img src='../../../images/clientpic-1.png'>
         </div>
         <div class="userinfo">
-            <p class="username">Staciya Trollio</p>
-            <p class="user-type">Customer</p>
-            <p class="dotes">................................................................</p>
+            <div class="userinfo-header">
+                <p class="username">Staciya Trollio</p>
+                <p class="user-type">Customer</p>
+            </div>
+            <p class="dotes">...............................................................................</p>
             <p class="text">Lorem Ipsum is simply dummy text of the printing
                 and industry. Lorem Ipsum has been the industry</p>
         </div>
     </div>
-    <div class="userblog">
+    <div class="userblog2">
         <div class="image">
             <img src='../../../images/clientpic-2.png'>
         </div>
         <div class="userinfo">
-            <p class="username">David Soul</p>
-            <p class="user-type">Customer</p>
-            <p class="dotes">.................................................................</p>
+            <div class="userinfo-header">
+                <p class="username">David Soul</p>
+                <p class="user-type">Customer</p>
+            </div>
+            <p class="dotes">................................................................................</p>
             <p class="text">Lorem Ipsum is simply dummy text of the printing
                 and industry. Lorem Ipsum has been the industry</p>
         </div>
