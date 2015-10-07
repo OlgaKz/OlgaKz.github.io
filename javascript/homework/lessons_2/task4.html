@@ -6,9 +6,9 @@
 </head>
 <body>
 <script>
-    var a = 1, b = 2;
-    result = prompt('a+b=?', '');
-    result = (a + b >= 3) ? 'Yep!' : 'Noup!';
+    'use strict';
+    var a = 1, b = 2, result = prompt('1+2=?');
+     result = (a+b === result) ? 'Yep!' : 'Noup!';
     alert(result);
 </script>
 </body>

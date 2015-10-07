@@ -6,11 +6,11 @@
 </head>
 <body>
 <script>
-    var name = 'admin', text;
-    name = prompt('Who are you?');
-    text = (name == 'admin') ? 'Hi' :
-            text = (name == 'manager') ? 'Hello' :
-                    text = (name == '') ? 'No login' : '';
+    'use strict';
+    var  name = prompt('Who are you?');
+     var text = (name == 'admin') ? 'Hi' :
+             (name == 'manager') ? 'Hello' :
+                     (name == '') ? 'No login' : '';
     alert(text);
 </script>
 </body>

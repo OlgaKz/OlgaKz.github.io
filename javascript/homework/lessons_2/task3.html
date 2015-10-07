@@ -7,20 +7,20 @@
 <body>
 <script>
     'use strict';
-    var login, password;
-    login = prompt('Enter your login');
+    var password, login = prompt('Enter your login');
     if (login == null) {
         alert('Canceled');
     } else if (login == 'admin') {
         password = prompt('Enter your password');
+        if (password == 'passw0rd') {
+            alert('Welcome home');
+        } else if (password == null) {
+            alert('Canceled');
+        } else alert('Wrong password');
     } else {
         alert('Access denied');
     }
-    if (password == 'passw0rd') {
-        alert('Welcome home');
-    } else if (password == null) {
-        alert('Canceled');
-    } else alert('Wrong password');
+
 </script>
 </body>
 </html>
