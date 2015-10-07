@@ -9,7 +9,7 @@
         margin: 0;
     }
     .header{
-        width: 1284px;
+        width:100%;
         height: 74px;
 
     }
@@ -121,11 +121,11 @@
         width: 341px;
         height: 488px;
     }
-    img{
-        margin-bottom: 20px;
+    .icons{
         margin-left: 75px;
-
+        margin-bottom: 20px;
     }
+
 
     .flexbox-item{
         color: #3070a8;
@@ -152,7 +152,7 @@
         line-height: 25px;
     }
     .flexbox{
-        width: 1023px;
+        width:100%;
         height: 488px;
         padding-bottom: 65px;
         margin-bottom: 20px;
@@ -359,13 +359,9 @@
         top: 2px;
         font-family: Trebuchet MS;
     }
-   .element.style{
-       overflow: hidden;
-    }
-    .background{
+    .bg-testimonials{
         background:url('../../../images/bg-testimonials.png');
-        width: 1284px;
-        height: 315px;
+        width: 100%;
     }
 
     .tittle{
@@ -374,116 +370,94 @@
         font-family: "Trebuchet MS","sans-serif";
         text-align: center;
         font-size: 25px;
+        font-weight: 300;
         padding-top: 29px;
-        left: 40px;
+        left: 40%;
         margin-top: 0;
 
     }
-    .tittle-text strong{
+    .tittle strong{
         color: #ff7e2e;
     }
-    .people{
+    .user{
         width: 100%;
-        height: 300px;
     }
-    .peoplecomment{
-        width: 489px;
-        height: 200px;
+    .userblog1{
+        height: 180px;
+        margin-left: 155px;
+        display: inline-flex;
+        min-width: 355px;
+    }
+    .userblog2{
+        min-width: 365px;
+        height: 180px;
+        margin-left: 40px;
+        display: inline-flex;
+    }
+    .image{
+        height: 98px;
+        width: 99px;
         display: inline-block;
     }
-    .imgwoman{
-        background: url('../../../images/clientpic-1.png');
+    .userinfo{
         position: relative;
-        height: 98px;
-        width: 99px;
-        left: 170px;
-        top: 23px;
-    }
-    .imgman{
-        background: url('../../../images/clientpic-2.png');
-        position: relative;
-        height: 98px;
-        width: 99px;
-        top: 23px;
-        left: 215px;
-    }
-    .man{
         background: white;
-        width: 364px;
+        width: 345px;
         height: 98px;
-        position: absolute;
-        padding-right: 10px;
-        left: 825px;
-        top: 2600px;
+        margin-left: 35px;
         padding-left: 10px;
-
     }
-    .woman{
-        background: white;
-        width: 364px;
-        height: 98px;
-        position: absolute;
-        padding-right: 10px;
-        left: 290px;
-        margin-right: 16px;
-        top: 2600px;
-        padding-left: 10px;
-
-    }
-    .peoplename:before{
+    .username:before{
         content:'- ';
     }
-    .peoplename{
+    .username{
         float: left;
         text-decoration: none;
         color: #3070a8;
         font-style: italic;
-        font-size: 12px;
+        font-size: 11px;
     }
-    .who{
+    .user-type{
         float: right;
         font-style: italic;
-        font-size: 12px;
-    }
-    .dot{
-        position: absolute;
-        top: 7px;
-        left: 3px;
-    }
-    .text{
-        position: absolute;
-        font-size: 12px;
-        top: 32px;
-        left: 20px;
-        padding-right: 12px;
+        font-size: 11px;
+        padding-right: 20px;
+        text-decoration: none;
+        color: #3070a8;
     }
 
-    .imgman:after {
-        margin-top: -12px;
-        position: absolute;
-        top: 50%;
-        left: 108px;
-        content: url('../../../images/arrow.png');
+    .userinfo-header{
+        overflow: hidden;
     }
-    .imgwoman:after {
-        margin-top: -12px;
+    .dotes{
+        font-family: Arial;
+        margin: 0;
+    }
+    .text{
+        font-size: 13px;
+        color: #666666;
+        font-family:'Trebuchet MS', 'sans-serif';
+        margin: 0;
+        padding-bottom: 10px;
+    }
+    .userinfo:before {
         position: absolute;
-        top: 50%;
-        left: 108px;
+        left: -16px;
+        top: 43%;
         content: url('../../../images/arrow.png');
     }
     .info{
+        padding-top:10px;
         background: url('../../../images/map.png');
     }
     .list-adress{
         list-style-type: none;
         color: #666;
         font-family: 'Trebuchet MS', 'sans-serif';
-        margin-top: 40px;
         padding-left: 250px;
     }
     .list-adress li{
-        padding: 7px; 0; 7px; 20px;
+        padding: 7px: 0: 7px: 20px;
     }
     .list-adress li:nth-child(1):before {
         content: url('../../../images/marker%20(1).png');
@@ -569,18 +543,18 @@
     </div>
     <div class="flexbox">
         <div class="protect">
-            <img src='../../../images/protect.png'>
+            <img class="icons" src='../../../images/protect.png'>
             <h1 class="flexbox-item">protect</h1>
             <p class="flexbox-text">100% of customer funds are stored offline in secure cold storage. We offer two­ factor
                 authentication on all accounts, mobile alerts and delayed withdrawals, and spending and transfer limits.</p>
         </div>
         <div class="alert">
-            <img src='../../../images/alert.png'>
+            <img class="icons" src='../../../images/alert.png'>
             <h1 class="flexbox-item">alert</h1>
                 <p class="flexbox-text">100% of customer funds are stored offline in secure cold storage. We offer two­ factor authentication on all accounts, mobile alerts and delayed withdrawals, and spending and transfer limits.</p>
         </div>
         <div class="detect">
-                <img src='../../../images/detect.png'>
+                <img class="icons" src='../../../images/detect.png'>
             <h1 class="flexbox-item">detect</h1>
             <p class="flexbox-text">100% of customer funds are stored offline in secure cold storage. We offer two­ factor authentication on all accounts, mobile alerts and delayed withdrawals, and spending and transfer limits.</p>
         </div>
@@ -656,28 +630,34 @@
         <button class="bluebutton">Enroll Today</button></div>
     </div>
 </div>
-<div class="background">
+<div class="bg-testimonials">
     <div class="tittle">
-        <h1 class="tittle-text"><strong>what</strong> client says</h1></div>
-    <div class="people">
-        <div class="peoplecomment">
-            <div class="imgwoman"></div>
-            <div class="woman">
-                <div class="trianglew"></div>
-                <p class="peoplename">Staciya Trollio</p>
-                <p class="who">Customer</p>
-                <p class="dot">................................................................</p>
+        <h1><strong>what</strong> client says</h1></div>
+    <div class="user">
+        <div class="userblog1">
+            <div class="image">
+                <img src='../../../images/clientpic-1.png'>
+            </div>
+            <div class="userinfo">
+                <div class="userinfo-header">
+                    <p class="username">Staciya Trollio</p>
+                    <p class="user-type">Customer</p>
+                </div>
+                <p class="dotes">.....................................................................</p>
                 <p class="text">Lorem Ipsum is simply dummy text of the printing
                     and industry. Lorem Ipsum has been the industry</p>
             </div>
         </div>
-        <div class="peoplecomment">
-            <div class="imgman"></div>
-            <div class="trianglem"></div>
-            <div class="man">
-                <p class="peoplename">David Soul</p>
-                <p class="who">Customer</p>
-                <p class="dot">.................................................................</p>
+        <div class="userblog2">
+            <div class="image">
+                <img src='../../../images/clientpic-2.png'>
+            </div>
+            <div class="userinfo">
+                <div class="userinfo-header">
+                    <p class="username">David Soul</p>
+                    <p class="user-type">Customer</p>
+                </div>
+                <div class="dotes">......................................................................</div>
                 <p class="text">Lorem Ipsum is simply dummy text of the printing
                     and industry. Lorem Ipsum has been the industry</p>
             </div>
