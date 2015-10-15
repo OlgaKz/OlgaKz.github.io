@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<style>
+    .pointer{
+        background:  #ffcf50;
+        border:solid 6px #ffcf50;
+        width: 530px;
+        position: relative;
+    }
+    .text{
+        width: 444px;
+        padding-right: 3px;
+        padding-bottom: 4px;
+    }
+    .search{
+        padding-bottom: 4px;
+        margin-left: 2px;
+        width: 67px;
+        font-size: 15px;
+    }
+    .pointer form:after {
+        content: '';
+        position: absolute;
+        top: -6px;
+        right: -50px;
+        border: 30px transparent solid;
+        border-left: solid 15px #ffcf50;
+    }
+
+</style>
+<body>
+<div class="pointer">
+    <form>
+        <input type class="text" name="field"/>
+        <button class="search">Найти</button></br>
+        <input type ="checkbox" name class="checkbox_search" value />поиск по описаниям сайтов
+    </form>
+</div>
+<div class="arrow">
+
+</div>
+</body>
+</html>
