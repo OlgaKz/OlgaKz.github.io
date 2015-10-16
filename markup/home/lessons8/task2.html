@@ -5,26 +5,29 @@
     <title></title>
 </head>
 <style>
-.pointer {
+.b-search {
     background: linear-gradient(to top, #ffcf50,sandybrown);
     width: 530px;
     position: relative;
     padding: 6px;
 }
-.text {
+.input_field {
     width: 444px;
     padding-right: 3px;
     padding-bottom: 4px;
 }
-.search {
+button {
     padding-bottom: 4px;
     margin-left: 2px;
     width: 67px;
     font-size: 15px;
 }
-.arrow{
+.setting {
+    font-size: 14px;
+}
+.arrow {
     width: 25px;
-    height: 66px;
+    height: 70px;
     position: absolute;
     background:linear-gradient(to top, #ffcf50,sandybrown);
     left: 550px;
@@ -32,27 +35,30 @@
     overflow: hidden;
 
 }
-.arrow_up{
+.arrow_up {
     top: 0;
     transform: rotate(63deg);
     width: 62px;
     height: 42px;
     background: #fff;
 }
-.arrow_down{
+.arrow_down {
     top: 0;
     transform: rotate(-63deg);
-    width: 60px;
-    height: 40px;
+    width: 62px;
+    height: 37px;
     background: #fff;
 }
 </style>
 <body>
-<div class="pointer">
+<div class="b-search">
     <form>
-        <input type class="text" name="field"/>
-        <button class="search">Найти</button></br>
-        <input type ="checkbox" name class="checkbox_search" value />поиск по описаниям сайтов
+        <input type class="input_field" name="input_field"/>
+        <button>Найти</button>
+        <div class="setting">
+            <input type ="checkbox" name="word" value="word"/>
+            <label for="word">поиск по описаниям сайтов</label>
+        </div>
     </form>
 </div>
 <div class="arrow">

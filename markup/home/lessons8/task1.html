@@ -5,13 +5,13 @@
     <title></title>
 </head>
 <style>
-    .pointer{
+    .b-search{
         background:  #ffcf50;
         border:solid 6px #ffcf50;
         width: 530px;
         position: relative;
     }
-    .text{
+    .input_field{
         width: 444px;
         padding-right: 3px;
         padding-bottom: 4px;
@@ -19,13 +19,13 @@
     .setting {
        font-size: 14px;
     }
-    .search{
+    button{
         padding-bottom: 4px;
         margin-left: 2px;
         width: 67px;
         font-size: 15px;
     }
-    .pointer form:after {
+    .b-search form:after {
         content: '';
         position: absolute;
         top: -7px;
@@ -36,10 +36,10 @@
 
 </style>
 <body>
-<div class="pointer">
+<div class="b-search">
     <form>
-        <input type class="text" name="field"/>
-        <button class="search">Найти</button>
+        <input type class="input_field" name="input_field"/>
+        <button>Найти</button>
         <div class="setting">
         <input type ="checkbox" name="word" value="word"/>
         <label for="word">поиск по описаниям сайтов</label>
