@@ -16,6 +16,9 @@
         padding-right: 3px;
         padding-bottom: 4px;
     }
+    .setting {
+       font-size: 14px;
+    }
     .search{
         padding-bottom: 4px;
         margin-left: 2px;
@@ -25,10 +28,10 @@
     .pointer form:after {
         content: '';
         position: absolute;
-        top: -6px;
+        top: -7px;
         right: -50px;
         border: 30px transparent solid;
-        border-left: solid 15px #ffcf50;
+        border-left: solid 14px #ffcf50;
     }
 
 </style>
@@ -36,12 +39,12 @@
 <div class="pointer">
     <form>
         <input type class="text" name="field"/>
-        <button class="search">Найти</button></br>
-        <input type ="checkbox" name class="checkbox_search" value />поиск по описаниям сайтов
+        <button class="search">Найти</button>
+        <div class="setting">
+        <input type ="checkbox" name="word" value="word"/>
+        <label for="word">поиск по описаниям сайтов</label>
+        </div>
     </form>
-</div>
-<div class="arrow">
-
 </div>
 </body>
 </html>
