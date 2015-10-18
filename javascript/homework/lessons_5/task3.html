@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    var myArr = [];
+    var counter = 0;
+    var sum = 0;
+    //
+    do
+    {
+        var calc = prompt('Введите число');
+        if (calc != null && calc != '' && isNaN(calc) != true) {
+            myArr[counter++] = calc;
+        }
+    }
+    while (calc != null && calc != '' && isNaN(calc) != true)
+    document.write('Мой массив равен' + myArr);
+    for (var i in myArr) {
+        sum += parseInt(myArr[i]);
+    }
+    document.write('</br>' + 'Моя сумма' + sum);
+</script>
+</body>
+</html>
