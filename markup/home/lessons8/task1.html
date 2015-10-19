@@ -5,31 +5,35 @@
     <title></title>
 </head>
 <style>
-    .b-search{
-        background:  #ffcf50;
-        border:solid 6px #ffcf50;
+    .b-search {
+        background: #ffcf50;
         width: 530px;
         position: relative;
+        height: 60px;
     }
-    .input_field{
+    .input_field {
         width: 444px;
-        padding-right: 3px;
-        padding-bottom: 4px;
+        position: absolute;
+        bottom: 30px;
+        left: 4px;
     }
-    .setting {
-       font-size: 14px;
-    }
-    button{
-        padding-bottom: 4px;
-        margin-left: 2px;
+    button {
         width: 67px;
         font-size: 15px;
+        position: absolute;
+        bottom: 29px;
+        right: 4px;
+    }
+    .setting {
+        font-size: 14px;
+        position: absolute;
+        bottom: 7px;
     }
     .b-search form:after {
         content: '';
         position: absolute;
-        top: -7px;
-        right: -50px;
+        top: -1px;
+        right: -44px;
         border: 30px transparent solid;
         border-left: solid 14px #ffcf50;
     }
@@ -41,8 +45,8 @@
         <input type class="input_field" name="input_field"/>
         <button>Найти</button>
         <div class="setting">
-        <input type ="checkbox" name="word" value="word"/>
-        <label for="word">поиск по описаниям сайтов</label>
+            <input type ="checkbox" name="word" value="word"/>
+            <label for="word">поиск по описаниям сайтов</label>
         </div>
     </form>
 </div>
