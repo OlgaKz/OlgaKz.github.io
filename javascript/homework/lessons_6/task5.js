@@ -1,12 +1,16 @@
-function isPal(string){
-    var arr = [];
-    arr = string.slice();
-    var arrRev = arr.split(' ').reverse().join(' ');
-    if(arrRev === string){
-        return true
-    } else if( arrRev != string){
-        return false
+function isPal(string) {
+    string = string.toLowerCase().split('');
+    for (var i = 0; i < string.length; i++) {
+        if (string[0] == '') {
+            string.splice(i, 1);
+        }
     }
+    var stringRevers = string.reverse().join('');
+    string = string.reverse().join('');
+    if (string === stringRevers) {
+        return true;
+    }
+    return false;
 }
 console.log(isPal('Anna')); // true
 console.log(isPal('А роза упала на лапу Азора')); //true
