@@ -34,7 +34,7 @@
             display: inline-block;
             position: relative;
         }
-        .box-galery:hover .galery_button{
+        .box:hover .galery_button{
             display: inline-block;
 
         }
@@ -46,7 +46,6 @@
             top:0;
             right: 0;
             display: none;
-
         }
         .link{
             position: absolute;
@@ -67,10 +66,38 @@
         .zoom:hover, .link:hover{
             cursor: pointer;
             background-color: rgb(39,166,243);
-
         }
-
-    </style>
+        .zoom-image{
+            border: 3px solid #999999;
+            border-radius: 3px;
+        }
+        .button_close{
+            background: #f84b13; (url('../../../images/close.png')) 50% no-repeat;
+            cursor: pointer;
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            top: -20px;
+            right: 60px;
+            border: none;
+        }
+        .zoom-galery{
+            position: relative;
+            margin: 0 auto;
+            max-width: 1180px;
+            min-width: 360px;
+        }
+        .zoom-box{
+            background-color: rgba(254,254,254,0.9);
+            position: absolute;
+            top:0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            padding: 180px 0;
+            - display: none;
+        }
+        </style>
 </head>
 <body>
 <div class="b-portfolio">
@@ -121,8 +148,14 @@
                     <img class="link" src='../../../images/link_icon.png'/>
                 </div>
             </div>
-        </div>
     </div>
 </div>
+<div class="zoom-box">
+    <div class="zoom-galery">
+        <img class="zoom-image" src='../../../images/fs-photo1.png'>
+        <button class="button_close"></button>
+    </div>
+</div>
+
 </body>
 </html>
