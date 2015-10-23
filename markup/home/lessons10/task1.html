@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+    @import url(https://fonts.googleapis.com/css?family=Lato);
+    body{
+    margin:0;
+    }
+    .b-portfolio-header{
+    width: 600px;
+    margin: 20px auto;
+    }
+    .title{
+    font-family: 'Lato', sans-serif;
+    color: #2e3a50;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 2.3em;
+    }
+    .subtitle{
+    color: #909090;
+    line-height: 0;
+    margin-left: 180px;
+    }
+    .b-portfolio-middle{
+    max-width:1180px;
+    min-width: 360px;
+    margin: 80px auto;
+    }
+    .box{
+    margin: 10px;
+    display: inline-block;
+    position: relative;
+    }
+    .box:hover .galery_button{
+    display: inline-block;
+
+    }
+    .galery_button{
+    background-color: rgba(39,166,243,0.8 );
+    position: absolute;
+    left:0;
+    bottom:0;
+    top:0;
+    right: 0;
+    display: none;
+    }
+    .link{
+    position: absolute;
+    top: 110px;
+    left: 130px;
+    border:1px solid #f6f9f9;
+    border-radius: 4px;
+    padding:12px;
+    }
+    .zoom{
+    border:1px solid #f6f9f9;
+    border-radius: 4px;
+    padding:12px;
+    position: absolute;
+    top: 110px;
+    left: 190px;
+    }
+    .zoom:hover, .link:hover{
+    cursor: pointer;
+    background-color: rgb(39,166,243);
+    }
+    </style>
+</head>
+<body>
+<div class="b-portfolio">
+    <div class="b-portfolio-header">
+        <h1 class="title">Show case your work like a pro.</h1>
+        <p class="subtitle">Contact me if you like my work</p>
+    </div>
+    <div class="b-portfolio-middle">
+        <div class="box">
+            <img class="box-galery" src='../../../images/image1.jpg'>
+            <div class="galery_button">
+                <img class="zoom" src='../../../images/zoom_icon.png'/>
+                <img class="link" src='../../../images/link_icon.png'/>
+            </div>
+        </div>
+        <div class="box">
+            <img class="box-galery" src='../../../images/image2.jpg'>
+            <div class="galery_button">
+                <img class="zoom" src='../../../images/zoom_icon.png'/>
+                <img class="link" src='../../../images/link_icon.png'/>
+            </div>
+        </div>
+        <div class="box">
+            <img class="box-galery" src='../../../images/image3.jpg'>
+            <div class="galery_button">
+                <img class="zoom" src='../../../images/zoom_icon.png'/>
+                <img class="link" src='../../../images/link_icon.png'/>
+            </div>
+        </div>
+        <div class="box">
+            <img class="box-galery" src='../../../images/image4.jpg'>
+            <div class="galery_button">
+                <img class="zoom" src='../../../images/zoom_icon.png'/>
+                <img class="link" src='../../../images/link_icon.png'/>
+            </div>
+        </div>
+        <div class="box">
+            <img class="box-galery" src='../../../images/image5.jpg'>
+            <div class="galery_button">
+                <img class="zoom" src='../../../images/zoom_icon.png'/>
+                <img class="link" src='../../../images/link_icon.png'/>
+            </div>
+        </div>
+        <div class="box">
+            <img class="box-galery" src='../../../images/image6.jpg'>
+            <div class="galery_button">
+                <img class="zoom" src='../../../images/zoom_icon.png'/>
+                <img class="link" src='../../../images/link_icon.png'/>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
