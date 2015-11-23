@@ -1,14 +1,16 @@
+
 function Machine (power){
     this.enable = function(){
         this._enable = true;
     };
-    this.disabled = function(){
+    this.disable = function(){
         this._enable = false;
     }
 }
 function CoffeeMachine(power, capacity) {
     Machine.apply(this,arguments);
     var waterAmount = 0;
+    var timerId;
 
     var WATER_HEAT_CAPACITY = 4200;
 
@@ -32,10 +34,15 @@ function CoffeeMachine(power, capacity) {
         if( ! this._enable){
             throw new Error ( 'cofeeMachine is turnoff');
         }
-        setTimeout(onReady, 1000);
+        timerId = setTimeout(onReady, 1000);
     };
-
+var  parentDisable = this.disable;
+    this.disable = function(){
+        parentDisable.call(this);
+        clearTimeout(timerId);
     }
+}
 var coffeeMachine = new CoffeeMachine(10000);
-//console.log(coffeeMachine.enable());
-console.log(coffeeMachine.run()); // ...???? ?????!
+coffeeMachine.enable();
+coffeeMachine.run();
+coffeeMachine.disable();

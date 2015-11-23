@@ -17,7 +17,7 @@ function CoffeeMachine(power, capacity) {
     };
 
     function onReady() {
-        alert( '???? ?????!' );
+        console.log( 'Coffee is ready!' );
     }
     this.setOnReady = function(newOnReady){
         onReady = newOnReady;
