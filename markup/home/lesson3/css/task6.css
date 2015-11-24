@@ -1,0 +1,25 @@
+#red,#green,#blue {display:none}
+.red{
+    background: red;
+}
+.blue{
+    background: blue;
+}
+.green{background: green}
+.green,.blue,.red{
+    color: white; border-radius: 35px;
+}
+label[for="red"] {
+    color: red;text-decoration:underline;
+
+}
+label[for="green"] {
+    color: green;text-decoration:underline;
+}
+label[for="blue"] {
+    color: blue;text-decoration:underline;
+}
+input[id="red"]:checked ~ .red, input[id="green"]:checked ~ .green,
+input[id="blue"]:checked ~ .blue  {
+    display: none;}
+span{display: inline-block}
