@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        #clock {
+            margin: 0 auto;
+            font-size: 130px;
+            font-family: 'Trebuchet MS', 'sans-serif';
+            background: #ffc654;
+        }
+        .hour{
+            color: #3070a8;
+        }
+        .min{
+            color: #f84b13;
+        }
+        .sec{
+            color: #a64dff;
+        }
+    </style>
+</head>
+<body>
+<div id="clock"><span class="hour">hh</span>:<span class="min">mm</span>:<span class="sec">ss</span></div>
+<script>
+    function update(){
+        var time = document.getElementById('clock');
+        var date = new Date();
+        var hours = date.getHours();
+        if(hours < 10){
+           hours = '0'+ hours;
+        }
+        time.children[0].innerHTML =  hours;
+        var minutes = date.getMinutes();
+        if(minutes < 10){
+            minutes = '0' + minutes;
+        }
+        time.children[1].innerHTML = minutes;
+        var seconds = date.getSeconds();
+        if( seconds < 10){
+            seconds = '0' + seconds;
+        }
+        time.children[2].innerHTML = seconds;
+    }
+    var timerId;
+    function clockStart (){
+        timerid = setInterval(update, 1000);update();
+    }
+    function ClockStop(){
+        clearInterval(update());
+        timerId = null;
+    }
+    console.log(update());
+    console.log(clockStart());
+</script>
+</body>
+</html>
