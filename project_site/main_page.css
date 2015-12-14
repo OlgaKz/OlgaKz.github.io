@@ -2,6 +2,9 @@ body{
     margin: 0;
     background:linear-gradient(to bottom, skyblue, lightskyblue);
 }
+
+
+
 @font-face{
     font-family: Elzevir;
     src: url('font/transfonter.org-20151214-114916/Elzevir.eot');
@@ -13,11 +16,9 @@ url('/font/transfonter.org-20151214-114916//Elzevir.ttf') format('truetype');
 }
 .menu{
     background: snow;
-    left: 230px;
-    bottom: 20px;
-    -margin: auto;
-    -width: 900px;
-
+}
+.menu-list{
+    margin: 0;
 }
 .wrapper{
     margin: auto;
@@ -27,7 +28,6 @@ url('/font/transfonter.org-20151214-114916//Elzevir.ttf') format('truetype');
 .menu-list-item{
     display: inline-block;
     text-align: center;
-    min-height: 25px;
     font-size: 25px;
     font-family: Georgia, serif;
 
@@ -47,12 +47,10 @@ url('/font/transfonter.org-20151214-114916//Elzevir.ttf') format('truetype');
 }
 
 .header{
-    display: inline-flex;
-    -width: 900px;
+    display: flex;
     background-color: snow;
     position: relative;
-    -margin: auto;
-    top: 20px;
+
 
 }
 .header h1{
@@ -77,4 +75,7 @@ url('/font/transfonter.org-20151214-114916//Elzevir.ttf') format('truetype');
 }
 .main_page{
     background-color: #ffa7d1;
+}
+.a123{
+background-color:#a64dff ;
 }
