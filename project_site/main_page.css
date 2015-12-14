@@ -14,13 +14,14 @@ url('/font/transfonter.org-20151214-114916//Elzevir.ttf') format('truetype');
 .menu{
     background: snow;
     left: 230px;
-    position: relative;
     bottom: 20px;
-    -margin: 0 auto;
+    margin: auto;
     width: 900px;
-    -border-radius: 5px;
+
 }
-.menu-list{
+.header{
+    margin: auto;
+    width: 900px;
 
 }
 .menu-list-item{
@@ -44,21 +45,20 @@ url('/font/transfonter.org-20151214-114916//Elzevir.ttf') format('truetype');
     padding: 0 35px;
 
 }
-.logo{
-    top: 20px;
 
-}
-.header{
+.header-content{
     display: inline-flex;
     width: 900px;
     background-color: snow;
-    left: 230px;
     position: relative;
+    margin: auto;
+    top: 20px;
 
 }
-.header h1{
+.header-content h1{
     position:absolute;
     left: 260px;
+    font-family: Georgia, serif;
 }
 .nameMC{
     left: 220px;
@@ -68,10 +68,10 @@ url('/font/transfonter.org-20151214-114916//Elzevir.ttf') format('truetype');
     font-family: Elzevir;
 
 }
-.contact{
+.callNumber{
     position: absolute;
     top:130px;
     left:500px;
     font-size: 35px;
-    font-family: Elzevir;
+    font-family: Georgia, serif;
 }
