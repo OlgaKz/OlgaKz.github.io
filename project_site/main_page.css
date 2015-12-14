@@ -15,11 +15,11 @@ url('/font/transfonter.org-20151214-114916//Elzevir.ttf') format('truetype');
     background: snow;
     left: 230px;
     bottom: 20px;
-    margin: auto;
-    width: 900px;
+    -margin: auto;
+    -width: 900px;
 
 }
-.header{
+.wrapper{
     margin: auto;
     width: 900px;
 
@@ -46,16 +46,16 @@ url('/font/transfonter.org-20151214-114916//Elzevir.ttf') format('truetype');
 
 }
 
-.header-content{
+.header{
     display: inline-flex;
-    width: 900px;
+    -width: 900px;
     background-color: snow;
     position: relative;
-    margin: auto;
+    -margin: auto;
     top: 20px;
 
 }
-.header-content h1{
+.header h1{
     position:absolute;
     left: 260px;
     font-family: Georgia, serif;
@@ -74,4 +74,7 @@ url('/font/transfonter.org-20151214-114916//Elzevir.ttf') format('truetype');
     left:500px;
     font-size: 35px;
     font-family: Georgia, serif;
+}
+.main_page{
+    background-color: #ffa7d1;
 }
