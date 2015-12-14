@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    background:linear-gradient(to bottom, skyblue, lightskyblue);
+}
+@font-face{
+    font-family: Elzevir;
+    src: url('font/transfonter.org-20151214-114916/Elzevir.eot');
+    src: url('font/transfonter.org-20151214-114916/Elzevir.eot?#iefix') format('embedded-opentype');
+url('/font/transfonter.org-20151214-114916/Elzevir.woff') format('woff'),
+url('/font/transfonter.org-20151214-114916//Elzevir.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.menu{
+
+    background: snow;
+    margin: 0 auto;
+    width: 900px;
+    border-radius: 5px;
+}
+.menu-list{
+
+}
+.menu-list-item{
+    display: inline-block;
+    text-align: center;
+    min-height: 25px;
+    font-size: 25px;
+    font-family: Georgia, serif;
+
+}
+.menu-link{
+    color: #3070a8;
+    text-decoration: none;
+    padding: 0 35px;
+
+}
+.menu-link:hover{
+    background: lightskyblue;
+    color: #f6f9f9;
+    border-radius: 5px;
+    padding: 0 35px;
+
+}
+.logo{
+    position:relative;
+    left: 235px;
+    top: 20px;
+
+}
+.header{
+    display: inline-flex;
+    width: 900px;
+}
+.header h1{
+    position:absolute;
+    left: 580px;
+    top: 50px;
+}
+.nameMC{
+    left: 520px;
+    position: absolute;
+    top: 60px;
+    font-size: 60px;
+    font-family: Elzevir;
+
+}
+.contact{
+    position: absolute;
+    top:155px;
+    left:730px;
+    font-size: 35px;
+    font-family: Elzevir;
+}
