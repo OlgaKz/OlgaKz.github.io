@@ -12,11 +12,13 @@ url('/font/transfonter.org-20151214-114916//Elzevir.ttf') format('truetype');
     font-style: normal;
 }
 .menu{
-
     background: snow;
-    margin: 0 auto;
+    left: 230px;
+    position: relative;
+    bottom: 20px;
+    -margin: 0 auto;
     width: 900px;
-    border-radius: 5px;
+    -border-radius: 5px;
 }
 .menu-list{
 
@@ -43,32 +45,33 @@ url('/font/transfonter.org-20151214-114916//Elzevir.ttf') format('truetype');
 
 }
 .logo{
-    position:relative;
-    left: 235px;
     top: 20px;
 
 }
 .header{
     display: inline-flex;
     width: 900px;
+    background-color: snow;
+    left: 230px;
+    position: relative;
+
 }
 .header h1{
     position:absolute;
-    left: 580px;
-    top: 50px;
+    left: 260px;
 }
 .nameMC{
-    left: 520px;
+    left: 220px;
     position: absolute;
-    top: 60px;
+    top: 30px;
     font-size: 60px;
     font-family: Elzevir;
 
 }
 .contact{
     position: absolute;
-    top:155px;
-    left:730px;
+    top:130px;
+    left:500px;
     font-size: 35px;
     font-family: Elzevir;
 }
