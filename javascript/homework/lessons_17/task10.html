@@ -49,7 +49,7 @@
 <button onclick='sort()'>Sort</button>
 <script>
     function sort(){
-        var tbody = document.getElementById('tbody');
+        var tbody = document.getElementsByTagName('tbody')[0];
         var rows = [];
         for( var i = 0; i<tbody.children.length;i++){
             rows.push(tbody.children[i]);
