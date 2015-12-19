@@ -2,6 +2,9 @@ body{
     margin: 0;
     background:linear-gradient(to bottom, skyblue, lightskyblue);
 }
+
+
+
 @font-face{
     font-family: Elzevir;
     src: url('../font/transfonter.org-20151214-114916/Elzevir.eot');
@@ -81,6 +84,7 @@ url('/font/transfonter.org-20151214-114916//Elzevir.ttf') format('truetype');
     margin: 0;
     display: none;
     border: double dodgerblue;
+    z-index: 10;
 
 }
 .dropdown li{
@@ -117,12 +121,11 @@ li:hover .dropdown{
 .main_page_list{
     width:25%;
     background-color: #9bc7de;
-    position: relative;
+    -position: relative;
     padding: 10px;
     cursor: pointer;
     outline: none;
     margin: 0 auto;
     font-weight: bold;
+    z-index: 6;
 }
-
-

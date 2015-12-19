@@ -2,21 +2,73 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Hello</title>
     <link rel="stylesheet" type="text/css" href="../css/department_1.css">
-    <link rel="import" href="main_page.html">
+    <link rel="stylesheet" type="text/css" href="../css/main_page.css">
+    <link rel="stylesheet" type="text/css" href="../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../font/transfonter.org-20151214-114916/stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!--
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    -->
+
+    <link rel="import" href="header.html">
 </head>
 <body>
-<div class="department1">
-    <h2>Відділення№1</h2>
+<script>
+    var link = document.querySelector('link[rel="import"]');
+    var content = link.import;
 
-    <p class="department1_title">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text.
-    </p>
+    var el = content.querySelector('.wrapper');
+    //console.log(el);
 
-    <p class="department1_title">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text.
-    </p>
+    document.body.appendChild(el.cloneNode(true));
+</script>
+<div class="wrapper">
+    <div class="main_page">
+        <div class="main_page_list" tabindex="1">
+            <h2>Основні направлення</h2>
+
+            <div class="view-source">
+                <a href="#">Напрямок№1</a>
+                <ul class="hide">
+                    <li><a href="department_1.html">отдел1</a></li>
+                    <li><a href="department_1.html">отдел2</a></li>
+                    <li><a href="#">отдел3</a></li>
+                    <li><a href="#">отдел4</a></li>
+                </ul>
+            </div>
+            <div class="view-source">
+                <a href="#">Напрямок№2</a>
+                <ul class="hide">
+                    <li><a href="#">отдел1</a></li>
+                    <li><a href="#">отдел2</a></li>
+                    <li><a href="#">отдел3</a></li>
+                    <li><a href="#">отдел4</a></li>
+                </ul>
+            </div>
+            <div class="view-source">
+                <a href="#">Напрямок№3</a>
+                <ul class="hide">
+                    <li><a href="#">отдел1</a></li>
+                    <li><a href="#">отдел2</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="department1">
+            <h2>Відділення№1</h2>
+
+            <p class="department1_title">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the
+                industry's standard dummy text.
+            </p>
+            <p class="department1_title">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the
+                industry's standard dummy text.
+            </p>
+        </div>
+    </div>
 </div>
+<script src="../js/main_page_list.js"></script>
 </body>
 </html>
