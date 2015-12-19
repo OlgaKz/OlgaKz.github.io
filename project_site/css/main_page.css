@@ -7,8 +7,8 @@ body{
 
 @font-face{
     font-family: Elzevir;
-    src: url('font/transfonter.org-20151214-114916/Elzevir.eot');
-    src: url('font/transfonter.org-20151214-114916/Elzevir.eot?#iefix') format('embedded-opentype');
+    src: url('../font/transfonter.org-20151214-114916/Elzevir.eot');
+    src: url('../font/transfonter.org-20151214-114916/Elzevir.eot?#iefix') format('embedded-opentype');
 url('/font/transfonter.org-20151214-114916/Elzevir.woff') format('woff'),
 url('/font/transfonter.org-20151214-114916//Elzevir.ttf') format('truetype');
     font-weight: normal;
@@ -75,9 +75,6 @@ url('/font/transfonter.org-20151214-114916//Elzevir.ttf') format('truetype');
     font-size: 35px;
     font-family: Georgia, serif;
 }
-.main_page{
-    background-color: #ffa7d1;
-}
 .dropdown{
     position:absolute;
     width: 100%;
@@ -96,15 +93,14 @@ url('/font/transfonter.org-20151214-114916//Elzevir.ttf') format('truetype');
     text-align: center;
     padding: 5px;
     color: snow;
+    letter-spacing: 1px;
 
 }
 .dropdown a{
     text-decoration: none;
-    border-bottom: 1px solid blue;
+    border-bottom: 1px solid snow;
     transition: 0.5s all;
     color: snow;
-
-
 }
 li:hover .dropdown{
     display:block;
@@ -113,4 +109,59 @@ li:hover .dropdown{
     background-color: snow;
     padding:5px 3px 5px 2px;
     color: #3070a8;
+}
+.main_page{
+    display:flex;
+}
+.main_page_content{
+    width: 75%;
+    background-color: firebrick;
+}
+.main_page_list{
+    width:25%;
+    background-color: #9bc7de;
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+    margin: 0 auto;
+    font-weight: bold;
+}
+.main_page_list:after{
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    right:60px;
+    top: 20%;
+    border-width: 6px 0 6px 6px;
+    border-style: solid;
+    border-color: transparent black;
+}
+.list-direction{
+    position: absolute;
+    font-weight: normal;
+    opacity: 0;
+    pointer-events: none;
+}
+.list-direction li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 7px 20px;
+}
+.list-direction li:hover a{
+    background: #f3f8f8;
+}
+.main_page_list.active .list-direction{
+    opacity: 1;
+    pointer-events: auto;
+}
+.main_page_list.active:after {
+    border-color:  black transparent;
+    border-width: 6px 6px 0 6px ;
+    margin-top: -3px;
+}
+.main_page_list.active {
+    background: #3070a8;
 }
