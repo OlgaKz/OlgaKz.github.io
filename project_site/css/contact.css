@@ -1,0 +1,28 @@
+.info{
+    background: snow;
+    margin: auto;
+    padding: 0;
+    width: 900px;
+}
+.info h2{
+    text-align: center;
+    color: #3070a8;
+    font-family: Georgia, serif;
+    font-size: 25px;
+    margin: 0;
+    padding-top: 125px;
+}
+.info p{
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 18px;
+
+
+}
+.info h3{
+    text-align: center;
+    color: #3070a8;
+    font-family: Georgia, serif;
+    font-size: 25px;
+    margin: 0;
+}
