@@ -36,14 +36,14 @@ url('/font/transfonter.org-20151214-114916//Elzevir.ttf') format('truetype');
 .menu-link{
     color: #3070a8;
     text-decoration: none;
-    padding: 0 30px;
+    padding: 0 26px;
 
 }
 .menu-link:hover{
     background: lightskyblue;
     color: #f6f9f9;
     border-radius: 5px;
-    padding: 0 30px;
+    padding: 0 26px;
 
 }
 
