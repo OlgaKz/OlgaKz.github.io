@@ -26,7 +26,7 @@ url('/font/transfonter.org-20151214-114916//Elzevir.ttf') format('truetype');
 
 }
 .menu-list-item{
-    display: flex;
+    display: inline-block;
     text-align: center;
     font-size: 22px;
     font-family: Georgia, serif;
