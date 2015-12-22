@@ -1,0 +1,12 @@
+.doc-photo{
+    width: 200px;
+    height: 160px;
+}
+.wrapper-doctor{
+    width: 900px;
+    margin: auto;
+    display: flex;
+}
+.doctor-content{
+    padding: 10px 20px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../css/doctors.css">
+    <link rel="stylesheet" type="text/css"href="../css/header.css">
+    <link rel="import" href="header.html">
+</head>
+<body>
+<script>
+    var link = document.querySelector('link[rel="import"]');
+    var content = link.import;
+
+    var el = content.querySelector('.wrapper');
+    //console.log(el);
+
+    document.body.appendChild(el.cloneNode(true));
+</script>
+<div class="wrapper-doctor">
+    <div class="doctor-content">
+        <img class="doc-photo" src="../images/doc_1.jpg">
+        <a class="doc-name" href="#">ФИО</a>
+        <p class="doc-spec">Специальность</p>
+    </div>
+    <div class="doctor-content">
+        <img class="doc-photo" src="../images/doc_2.jpg">
+        <a class="doc-name" href="#">ФИО</a>
+        <p class="doc-spec">Специальность</p>
+    </div>
+    <div class="doctor-content">
+        <img class="doc-photo" src="../images/doc_3.jpg">
+        <a class="doc-name" href="#">ФИО</a>
+        <p class="doc-spec">Специальность</p>
+    </div>
+    <div class="doctor-content">
+        <img class="doc-photo" src="../images/doc_4.jpg">
+        <a class="doc-name" href="#">ФИО</a>
+        <p class="doc-spec">Специальность</p>
+    </div>
+</div>
+</body>
+</html>
