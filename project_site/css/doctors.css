@@ -1,5 +1,5 @@
 .doc-photo{
-    width: 200px;
+    width: 180px;
     height: 160px;
 }
 .wrapper-doctor{
@@ -9,4 +9,15 @@
 }
 .doctor-content{
     padding: 10px 20px;
+}
+.doc-name{
+    margin: 0 auto;
+}
+.doc-spec{
+    text-align: center;
+}
+.popup-doc{
+    display: none;
+    width: 300px;
+    height: 500px;
 }
