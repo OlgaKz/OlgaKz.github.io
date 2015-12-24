@@ -1,0 +1,33 @@
+.images{
+    width: 270px;
+    position: relative;
+}
+.zoom{
+    position: absolute;
+
+}
+.box-galery{
+    max-width: 900px;
+    min-width: 300px;
+    margin: 30px auto;
+    background: snow;
+}
+.item-galery{
+    margin: 10px;
+    display: inline-block;
+    position: relative;
+}
+.item-galery:hover .zoom{
+    display: block;
+}
+.zoom{
+    background-color: rgba(39,166,243,0.8 );
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    display: none;
+    border:1px solid #f6f9f9;
+    border-radius: 7px;
+    padding: 15px;
+    cursor: pointer;
+}
