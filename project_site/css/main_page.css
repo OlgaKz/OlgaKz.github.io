@@ -1,128 +1,51 @@
-body{
-    margin: 0;
-    background:linear-gradient(to bottom, skyblue, lightskyblue);
-}
-@font-face{
-    font-family: Elzevir;
-    src: url('../font/transfonter.org-20151214-114916/Elzevir.eot');
-    src: url('../font/transfonter.org-20151214-114916/Elzevir.eot?#iefix') format('embedded-opentype');
-url('/font/transfonter.org-20151214-114916/Elzevir.woff') format('woff'),
-url('/font/transfonter.org-20151214-114916//Elzevir.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-.menu{
-    background: snow;
-}
-.menu-list{
-    margin: 0;
-}
-.wrapper{
-    margin: 0 auto;
-    width: 900px;
-
-}
-.menu-list-item{
-    display: inline-block;
-    text-align: center;
-    font-size: 25px;
-    font-family: Georgia, serif;
-    position: relative;
-
-}
-.menu-link{
-    color: #3070a8;
-    text-decoration: none;
-    padding: 0 35px;
-
-}
-.menu-link:hover{
-    background: lightskyblue;
-    color: #f6f9f9;
-    border-radius: 5px;
-    padding: 0 35px;
-
-}
-
-.header{
-    display: flex;
-    background-color: snow;
-    position: relative;
-
-
-}
-.header h1{
-    position:absolute;
-    left: 260px;
-    font-family: Georgia, serif;
-}
-.nameMC{
-    left: 220px;
-    position: absolute;
-    top: 30px;
-    font-size: 60px;
-    font-family: Elzevir;
-    color:dodgerblue ;
-
-}
-.callNumber{
-    position: absolute;
-    top:130px;
-    left:500px;
-    font-size: 35px;
-    font-family: Georgia, serif;
-}
-.dropdown{
-    position:absolute;
-    width: 100%;
-    font-size:19px;
-    background: lightskyblue;
-    padding: 0;
-    margin: 0;
-    display: none;
-    border: double dodgerblue;
-
-}
-.dropdown li{
-    width: 100%;
-    font-family: Georgia, serif;
-    list-style: none;
-    text-align: center;
-    padding: 5px;
-    color: snow;
-    letter-spacing: 1px;
-
-}
-.dropdown a{
-    text-decoration: none;
-    border-bottom: 1px solid snow;
-    transition: 0.5s all;
-    color: snow;
-}
-li:hover .dropdown{
-    display:block;
-}
-.dropdown a:hover{
-    background-color: snow;
-    padding:5px 3px 5px 2px;
-    color: #3070a8;
-}
 .main_page{
     display:flex;
+    width: 900px;
+    margin: auto;
 }
 .main_page_content{
-    width: 75%;
-    background-color: firebrick;
+    width: 700px;
+    background: url('../images/main.jpg');
+    background-position: center;
 }
 .main_page_list{
-    width:25%;
-    background-color: #9bc7de;
-    position: relative;
+    width:200px;
+    background-color: snow;
+    -position: relative;
     padding: 10px;
     cursor: pointer;
-    outline: none;
     margin: 0 auto;
     font-weight: bold;
+    color: #3070a8;
 }
+.view-source-link{
+    text-decoration: none;
+    color: #3070a8;
+    font-size: 15px;
+    font-family: Georgia, serif;
+}
+.view-source-link:hover{
+    background-color: #9bc7de;
+    color: #2e3a50;
+    padding: 15px 10px;
+    border-radius: 10px;
 
+}
+.view-source{
+    padding: 15px 10px;
+    position: relative;
 
+}
+.hide li{
+    padding: 10px 0;
+}
+.hide{
+    list-style: none;
+
+}
+.hide-link{
+    text-decoration: none;
+    color: #2e3a50;
+    padding: 15px 0;
+
+}
