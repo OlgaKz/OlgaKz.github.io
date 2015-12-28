@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../css/departments.css">
+    <link rel="stylesheet" type="text/css" href="../css/main_page.css">
+    <link rel="stylesheet" type="text/css" href="../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../font/transfonter.org-20151214-114916/stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="import" href="header.html">
+</head>
+<body>
+<script>
+    var link = document.querySelector('link[rel="import"]');
+    var content = link.import;
+
+    var el = content.querySelector('.wrapper');
+    //console.log(el);
+
+    document.body.appendChild(el.cloneNode(true));
+</script>
+<div class="main_page">
+    <div class="main_page_list" tabindex="1">
+        <h2>Наши отделения</h2>
+        <div class="view-source">
+            <a class="view-source-link" href="#">Гинекология</a>
+            <ul class="hide">
+                <li><a class="hide-link" href="ginecology_1.html">Патология шейки матки </a></li>
+                <li><a class="hide-link" href="ginecology_3.html">Лечение бесплодия</a></li>
+                <li><a class="hide-link" href="ginecology_2.html">Ведение беременности</a></li>
+                <li><a class="hide-link" href="ginecology_4.html">Лечение инфекционных заболеваний</a></li>
+            </ul>
+        </div>
+        <div class="view-source">
+            <a class="view-source-link" href="#">Хирургия</a>
+            <ul class="hide">
+                <li><a class="hide-link" href="surgery_1.html">Вросший ноготь</a></li>
+                <li><a class="hide-link" href="surgery_2.html">Варикозная болезнь</a></li>
+                <li><a class="hide-link" href="surgery_3.html">Новообразования кожи</a></li>
+            </ul>
+        </div>
+        <div class="view-source">
+            <a class="view-source-link" href="#">Урология</a>
+            <ul class="hide">
+                <li><a class="hide-link" href="#">Андрология</a></li>
+                <li><a class="hide-link" href="#">Урогинекология</a></li>
+            </ul>
+        </div>
+        <div class="view-source">
+            <a class="view-source-link" href="#">Кардиология</a>
+        </div>
+        <div class="view-source">
+            <a class="view-source-link" href="#">Офтальмология</a>
+        </div>
+        <div class="view-source">
+            <a class="view-source-link" href="#">Эндокринология</a>
+        </div>
+        <div class="view-source">
+            <a class="view-source-link" href="#">Семейный врач</a>
+            <ul class="hide">
+                <li><a class="hide-link" href="#">Вакцинация</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="department">
+        <h2>Новообразования кожи</h2>
+        <p class="department_title">Липомы и атеромы – доброкачественные кожные образования. Внешне они очень похожи. На первых стадиях эти образования доставляют исключительно физический и эстетический дискомфорт.
+            Только врач может поставить правильный диагноз и предложить наиболее безопасный и эффективный метод хирургического лечения.
+            Удаление происходит под местной анестезией как для липом, так и для атером. Преимущественно используется метод лазерного лечения благодаря отсутствию реабилитации после операции. Кроме того, лазерное лечение используют из-за скорости и надежности.</p>
+        <p class="department_title">
+            Как правило, лечение липомы и лечение атеромы проводится путем иссечения радиоволновым ножом с последующим вылущиванием опухоли, и обработкой ложа лазером. На кожу накладываются обычные или атравматические (в зависимости от пожеланий пациента и конкретной ситуации) швы. При лечении липомы и\или атеромы обработка лазером производится для предотвращения рецидивов, с одной стороны, а с другой стороны после лазерной обработки, в послеоперационном периоде болезненности в месте операции практически нет. В большинстве случаев, на месте удаления новообразований (в случае отсутствия у пациента склонности к рубцеванию), при использовании названных методик, рубцов (шрамов) не остается.
+        </p>
+        <button class="form">Записаться на прием</button>
+    </div>
+</div>
+<script src="../js/main_page_list.js"></script>
+</body>
+</html>

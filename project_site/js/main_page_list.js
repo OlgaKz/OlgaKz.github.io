@@ -7,3 +7,4 @@ $(function() {
         $(this).next().slideToggle(500);
     })
 });
+

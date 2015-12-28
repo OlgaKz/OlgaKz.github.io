@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+    <link rel="stylesheet" type="text/css" href="../css/departments.css">
+    <link rel="stylesheet" type="text/css" href="../css/main_page.css">
+    <link rel="stylesheet" type="text/css" href="../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../font/transfonter.org-20151214-114916/stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!--
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    -->
+
+    <link rel="import" href="header.html">
+</head>
+<body>
+<script>
+    var link = document.querySelector('link[rel="import"]');
+    var content = link.import;
+
+    var el = content.querySelector('.wrapper');
+    //console.log(el);
+
+    document.body.appendChild(el.cloneNode(true));
+</script>
+    <div class="main_page">
+        <div class="main_page_list" tabindex="1">
+            <h2>Наши отделения</h2>
+            <div class="view-source">
+                <a class="view-source-link" href="#">Гинекология</a>
+                <ul class="hide">
+                    <li><a class="hide-link" href="ginecology_1.html">Патология шейки матки </a></li>
+                    <li><a class="hide-link" href="ginecology_3.html">Лечение бесплодия</a></li>
+                    <li><a class="hide-link" href="ginecology_2.html">Ведение беременности</a></li>
+                    <li><a class="hide-link" href="ginecology_4.html">Лечение инфекционных заболеваний</a></li>
+                </ul>
+            </div>
+            <div class="view-source">
+                <a class="view-source-link" href="#">Хирургия</a>
+                <ul class="hide">
+                    <li><a class="hide-link" href="#">Вросший ноготь</a></li>
+                    <li><a class="hide-link" href="#">Варикозная болезнь</a></li>
+                    <li><a class="hide-link" href="#">Новообразования кожи</a></li>
+                </ul>
+            </div>
+            <div class="view-source">
+                <a class="view-source-link" href="#">Урология</a>
+                <ul class="hide">
+                    <li><a class="hide-link" href="#">Андрология</a></li>
+                    <li><a class="hide-link" href="#">Урогинекология</a></li>
+                </ul>
+            </div>
+            <div class="view-source">
+                <a class="view-source-link" href="#">Кардиология</a>
+            </div>
+            <div class="view-source">
+                <a class="view-source-link" href="#">Офтальмология</a>
+            </div>
+            <div class="view-source">
+                <a class="view-source-link" href="#">Эндокринология</a>
+            </div>
+            <div class="view-source">
+                <a class="view-source-link" href="#">Семейный врач</a>
+                <ul class="hide">
+                    <li><a class="hide-link" href="#">Вакцинация</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="department">
+            <h2>Патология шейки матки</h2>
+            <h3>Эрозия шейки матки</h3>
+            <p class="department_title">
+                Эрозия шейки матки – дефект слизистой оболочки шейки матки в виде участка красного цвета.
+                Эрозия шейки матки возникает и протекает бессимптомно – поэтому только регулярный осмотр врача гинеколога позволит своевременно выявить и предупредить развитие осложнений данного заболевания.
+                Эрозия шейки матки может встречаться у женщин всех возрастов. При этом до 21 года диагноз обычной эрозии у девушек требует наблюдения и может проходить самостоятельно, будучи просто этапом формирования гормонального фона. Уже после 21 года эрозия считается патологическим процессом и требует диагностики и лечения..
+            </p>
+            <p class="department_title">
+                Для лечения мы применяем лазерную вапоризацию и радиоволновую эксцизию. Эти, зарекомендовавшие себя методы, позволяют успешно осуществлять эрозия шейки матки лечение и являются наиболее оптимальными для сохранения естественной репродуктивной функции женщины.
+            </p>
+            <h3>Дисплазия шейки матки</h3>
+            <p class="department_title">Это заболевание, при котором на поверхности шейки матки присутствуют нетипичные (аномальные) клетки. И хотя само заболевание возникает и протекает бессимптомно, оно относится к потенциально опасным, так как может приводить к развитию рака шейки матки. Выявление дисплазии шейки матки на более ранних этапах развития является залогом наиболее успешного дисплазия лечение.
+                Для выявления дисплазии выполняется цитологическое исследование соскоба шейки матки и цервикального канала и расширенная видеокольпоскопия.</p>
+            <p class="department_title">Мы используем современные методы лечение шейки матки – лазерную вапоризацию и радиоволновую эксцизию. Использование этих методов является наиболее оптимальным для сохранения естественной репродуктивной функции женщины, так как здоровые ткани не повреждаются и не формируются рубцы.</p>
+            <button class="form">Записаться на прием</button>
+        </div>
+    </div>
+<script src="../js/main_page_list.js"></script>
+</body>
+</html>
