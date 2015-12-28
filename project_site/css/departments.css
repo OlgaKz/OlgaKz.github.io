@@ -1,0 +1,41 @@
+.department{
+    background-color: #dff5ff;
+    width: 700px;
+}
+.department_title{
+    color: black;
+    font-family: Georgia, serif;
+    font-size: 15px;
+    padding: 2px 12px;
+}
+.department h2{
+    color: #2a61ff;
+    font-family: Georgia, serif;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+}
+.department h3{
+    color: #3070a8;
+    font-size: 20px;
+    font-family: Georgia, serif;
+    font-weight: 600;
+    padding: 2px 12px;
+}
+.form{
+    position: relative;
+    left: 35% ;
+    width: 170px;
+    height: 50px;
+    background-color: #3070a8;
+    color: white;
+    z-index: 0;
+    font-size: 20px;
+    font-family: Georgia, serif;
+}
+.form:hover{
+    background-color: #9bc7de;
+    color: #3070a8;
+    z-index: 2;
+    transition: 0.6s;
+}
