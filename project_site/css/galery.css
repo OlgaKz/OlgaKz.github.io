@@ -1,6 +1,7 @@
 .images{
-    width: 270px;
+    width: 275px;
     position: relative;
+    padding: 0;
 }
 .zoom{
     position: absolute;
@@ -9,13 +10,16 @@
 .box-galery{
     max-width: 900px;
     min-width: 300px;
-    margin: 30px auto;
+    margin: 0 auto;
     background: snow;
+    padding: 0;
 }
 .item-galery{
     margin: 10px;
     display: inline-block;
     position: relative;
+    padding: 0;
+
 }
 .item-galery:hover .zoom{
     display: block;
