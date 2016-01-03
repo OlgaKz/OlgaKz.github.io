@@ -16,8 +16,6 @@
     text-align: center;
     font-family: Georgia, serif;
     font-size: 18px;
-
-
 }
 .info h3{
     text-align: center;
@@ -25,4 +23,45 @@
     font-family: Georgia, serif;
     font-size: 25px;
     margin: 0;
+    padding-bottom: 15px;
+}
+#feedback{
+    width: 600px;
+    border: 3px solid royalblue;
+    margin: auto;
+    background: snow;
+    position: relative;
+}
+.form-text{
+    height: 32px;
+    border: 2px solid royalblue;
+    color: darkslateblue;
+    width: 298px;
+    padding: 0 11px;
+}
+.form-submit{
+    background: royalblue;
+    width: 200px;
+    float: right;
+    padding: 0 10px;
+    height: 41px;
+    border: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+}
+.form-textarea{
+    width: 298px;
+    padding: 5px 11px;
+    border: 2px solid royalblue;
+    resize: none;
+    height: 92px;
+    font-size: 18px;
+}
+.client-form{
+    padding: 50px;
+    color: #2a61ff;
+    font-size: 23px;
+    text-align: center;
 }

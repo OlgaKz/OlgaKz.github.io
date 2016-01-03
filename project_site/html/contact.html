@@ -13,8 +13,7 @@
     <script type="text/javascript">
         $(document).ready(function(){
             $('.slider').bxSlider({
-                auto: true,
-                adaptiveHeight: true
+                auto: true
             });
         });
     </script>
@@ -37,6 +36,28 @@
         <h3> Наши контакты:</h3>
         <p>(044)XXX-XX-XX</p>
         <p>(o67)XXX-XX-XX</p>
+        <h3>Вы можете связаться с нами, заполнив форму ниже, либо задать вопросы<a href ="mailto:xxxxxxxxxxxx@mail.ru"> по электронной почтe</a></h3>
+        <div id="feedback">
+            <form class="client-form">Вы можете записаться на прием, заполнив форму:
+                <p><input class="form-text" type="text" name="full_name" placeholder="Введите ваше имя" size="25" maxlength="30"></p>
+                <p><input class="form-text" type="text" name="contact" placeholder="Введите ваш контактный номер" size="25" maxlength="30">
+                </p>
+                    <p><input class="form-text" type="text" name="mail" placeholder="Введите ваш  E-mail" size="35" maxlength="40"></p>
+                <p>
+                    <select class="form-text" name="doctors" size="1">
+
+                        <option selected value="Выберите доктора">Выберите доктора</option>
+                        <option value="Марченко">Марченко Раиса Захаровна</option>
+                        <option value="Романенко">Романенко Лариса Олеговна</option>
+                        <option value="Сафронов">Сафронов Игорь Иванович</option>
+                        <option value="Фадеев">Фадеев Сергей Викторович</option>
+                    </select>
+                </p>
+                <p><textarea class="form-textarea" name="comment" id="comment"  cols="48" rows="8" placeholder="Укажите Ваши пожелания"></textarea>
+                </p>
+                <input class="form-submit" type="submit" name="submit" value="Отправить">
+            </form>
+        </div>
     </div>
 </body>
 </html>

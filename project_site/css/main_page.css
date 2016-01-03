@@ -25,12 +25,12 @@ body{
     font-weight: 500;
 }
 .main_page_content li:hover{
-    color: #2a61ff ;
+    color: royalblue;
     font-weight: 600;
 }
 .main_page_list{
     width:200px;
-    background-color: #9bc7de;
+    background-color: snow;
     padding: 10px;
     cursor: pointer;
     margin: 0 auto;
@@ -45,7 +45,7 @@ body{
     padding: 15px 10px;
 }
 .view-source-link:hover{
-    background-color: aliceblue;
+    background-color: #89c3ff;
     color: #2e3a50;
     padding: 15px 10px;
     border-radius: 10px;

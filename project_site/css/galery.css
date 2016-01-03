@@ -61,7 +61,7 @@
 }
 .zoom-galery{
     display: none;
-    position: relative;
+    position: absolute;
     margin: 0 auto;
     max-width: 900px;
     min-width: 300px;
@@ -72,6 +72,8 @@
     position:fixed;
     top:0;
     left:0;
+    right: 0;
+    bottom: 0;
     display:none;
     background:#000;
     opacity:.8;

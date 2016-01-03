@@ -30,8 +30,8 @@
     display: none;
     width: 500px;
     z-index: 100;
-    margin: auto;
-    position: absolute;
+    margin: 80px auto;
+    position: fixed;
     top: 0;
     left: 0;
     right:0;
@@ -90,7 +90,54 @@
     position:fixed;
     top:0;
     left:0;
+    right: 0;
+    bottom: 0;
     display:none;
     background:#000;
     opacity:.8;
+}
+.feedback{
+    width: 600px;
+    border: 3px solid royalblue;
+    margin: auto;
+    background: snow;
+    position: fixed;
+}
+.form-text{
+    height: 32px;
+    border: 2px solid royalblue;
+    color: darkslateblue;
+    width: 298px;
+    padding: 0 11px;
+}
+.form-submit{
+ background: royalblue;
+    width: 200px;
+    float: right;
+    padding: 0 10px;
+    height: 41px;
+    border: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+}
+.form-textarea{
+    width: 298px;
+    padding: 5px 11px;
+    border: 2px solid royalblue;
+    resize: none;
+    height: 92px;
+}
+.client-form{
+    padding: 50px;
+}
+.form-close{
+    float: left;
+    width: 200px;
+    height: 41px;
+    background: royalblue;
+    opacity: 0.5;
+    text-transform: uppercase;
+    color: #fff;
 }

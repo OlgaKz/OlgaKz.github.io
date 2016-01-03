@@ -13,6 +13,7 @@ $(".item-galery").on("click", ".zoom", function (event) {
     return false;
 
 });
+
 $('button.close').click(function () {
     $(this).parent().fadeOut(100);
     $('#overlay').remove('#overlay');
