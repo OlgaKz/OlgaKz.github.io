@@ -1,5 +1,6 @@
-$('.im').click(function() {
-    $(this).height(400);
-    $(this).width(600);
-    $(this).off(); //removes the handler so that it only resizes once...
+$(document).ready(function(){
+    $('.zoom-galery').hide();
+    $('.zoom').click(function(e) {
+        $(e.target).parent().children('.zoom-galery').show();
+    })
 });
