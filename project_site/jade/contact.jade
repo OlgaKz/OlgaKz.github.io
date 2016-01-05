@@ -21,14 +21,15 @@ block content
             a(href="mailto:xxxxxxxxxxxx@mail.ru") по электронной почте
          #feedback
             form.client-form Вы можете записаться на прием, заполнив форму:
-               input(class="client-form" type='text' name='full_name' placeholder='Введите ваше имя' size='25' maxlength='30')
-               input.client-form(type='text' name='contact' placeholder='Введите ваш контактный номер' size='25' maxlength='30')
-               input.client-form(type='text' name='mail' placeholder='Введите ваш  E-mail' size='35' maxlength='40')
-               select.form-text(name='doctors' size='1')
+               p: input(class="form-text" type='text' name='full_name' placeholder='Введите ваше имя' size='35' maxlength='40')
+               p: input.form-text(type='text' name='contact' placeholder='Введите ваш контактный номер' size='35' maxlength='40')
+               p: input.form-text(type='text' name='mail' placeholder='Введите ваш  E-mail' size='35' maxlength='40')
+               p: select.form-text(name='doctors' size='1')
                  option(selected value='Выберите доктора') Выберите доктора:
                  option(value='Марченко Раиса Захаровна') Марченко Раиса Захаровна
                  option(value='Романенко Лариса Олеговна') Романенко Лариса Олеговна
                  option(value='Сафронов Игорь Иванович') Сафронов Игорь Иванович
                  option(value='Фадеев Сергей Викторович') Фадеев Сергей Викторович
-
+               p: textarea.form-textarea(name='comment' id='comment'  cols='48' rows='8' placeholder='Укажите Ваши пожелания')
+               input.form-submit(type='submit' name='submit' value='Отправить')
 

@@ -69,3 +69,12 @@ body{
     padding: 15px 0;
 
 }
+h2{
+    background: snow;
+    text-align: center;
+    font-size: 30px;
+    color: #3070a8;
+    font-family: Elzevir;
+    padding: 10px;
+    margin: 0;
+}
