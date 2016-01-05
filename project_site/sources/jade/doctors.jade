@@ -1,6 +1,6 @@
 extends layout/layout
 block title
-   title main_page
+   title doctors
 block css
    link(rel='stylesheet', href='../css/main_page.css')
    link(rel='stylesheet', href='../css/doctors.css')
@@ -9,7 +9,7 @@ block content
       include includes/header
       include includes/main_menu
       include includes/slider
-      h2 Наши специалисты всегда рады Вам помочь
+      h2.title Наши специалисты всегда рады Вам помочь
    .wrapper-doctor
       .doctor-content
          img.doc-photo(src="../images/doc_1.jpg")

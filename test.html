@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+</head>
+<body>
+<div class="view-source">
+    <a href="#">пункт1</a>
+    <ul class="hide">
+        <li><a href="#">отдел1</a></li>
+        <li><a href="#">отдел2</a></li>
+        <li><a href="#">отдел3</a></li>
+        <li><a href="#">отдел4</a></li>
+    </ul>
+</div>
+<div class="view-source">
+    <a href="#">пункт2</a>
+    <ul class="hide">
+        <li><a href="#">отдел1</a></li>
+        <li><a href="#">отдел2</a></li>
+        <li><a href="#">отдел3</a></li>
+        <li><a href="#">отдел4</a></li>
+    </ul>
+</div>
+<div class="view-source">
+    <a href="#">пункт3</a>
+    <ul class="hide">
+        <li><a href="#">отдел1</a></li>
+        <li><a href="#">отдел2</a></li>
+    </ul>
+</div>
+<script>
+    $(function() {
+        $('.view-source .hide').hide();
+        $a = $('.view-source a');
+        $a.on('click', function (event) {
+            event.preventDefault();
+            $a.not(this).next().slideUp(500);
+            $(this).next().slideToggle(500);
+        })
+    });
+</script>
+
+</body>
+</html>

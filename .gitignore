@@ -1,4 +1,2 @@
 *.idea
-project_site/node_modules
-project_site/jade/*.html
-project_site/jade/**/*.html
+
