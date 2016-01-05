@@ -1,0 +1,70 @@
+.info{
+    background: snow;
+    margin: auto;
+    padding: 0;
+    width: 900px;
+}
+.info h2{
+    text-align: center;
+    color: #3070a8;
+    font-family: Georgia, serif;
+    font-size: 25px;
+    margin: 0;
+    padding-top: 125px;
+}
+.info p{
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 18px;
+}
+.info h3{
+    text-align: center;
+    color: #3070a8;
+    font-family: Georgia, serif;
+    font-size: 25px;
+    margin: 0;
+    padding-bottom: 15px;
+}
+#feedback{
+    width: 600px;
+    border: 3px solid royalblue;
+    margin: 10px auto;
+    background: snow;
+    position: relative;
+    padding: 20px;
+}
+.form-text{
+    height: 32px;
+    border: 2px solid royalblue;
+    color: darkslateblue;
+    width: 298px;
+    padding: 0 11px;
+}
+.form-submit{
+    background: royalblue;
+    width: 200px;
+    float: right;
+    padding: 0 10px;
+    height: 41px;
+    border: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+}
+.form-textarea{
+    width: 298px;
+    padding: 5px 11px;
+    border: 2px solid royalblue;
+    resize: none;
+    height: 92px;
+    font-size: 18px;
+}
+.client-form{
+    color: #2a61ff;
+    font-size: 20px;
+    text-align: center;
+
+    padding: 50px;
+
+}

@@ -103,7 +103,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks("grunt-contrib-copy");
     grunt.loadNpmTasks("grunt-contrib-clean");
     grunt.loadNpmTasks("grunt-contrib-watch");
-    grunt.loadNpmTasks("grunt-rename");
+    //grunt.loadNpmTasks("grunt-rename");
 
     //register available for run tasks
     grunt.registerTask("clean-all", "clean build dir", ["clean"]);
