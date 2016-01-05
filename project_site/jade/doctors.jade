@@ -1,0 +1,70 @@
+extends layout/layout
+block title
+   title main_page
+block css
+   link(rel='stylesheet', href='../css/main_page.css')
+   link(rel='stylesheet', href='../css/doctors.css')
+block content
+   .wrapper
+      include includes/header
+      include includes/main_menu
+      include includes/slider
+      h2 Наши специалисты всегда рады Вам помочь
+   .wrapper-doctor
+      .doctor-content
+         img.doc-photo(src="../images/doc_1.jpg")
+         a.show_popup(rel="doc_1" href="#") Марченко Раиса Захаровна
+         p.doc-spec Терапевт, кордиолог
+      .doctor-content
+         img.doc-photo(src="../images/doc_2.jpg")
+         a.show_popup(rel="doc_2" href="#") Фадеев Сергей Викторович
+         p.doc-spec Хирург
+      .doctor-content
+         img.doc-photo(src="../images/doc_3.jpg")
+         a.show_popup(rel="doc_3" href="#") Сафронов Игорь Иванович
+         p.doc-spec Врач УЗД
+      .doctor-content
+         img.doc-photo(src="../images/doc_4.jpg")
+         a.show_popup(rel="doc_4" href="#") Романенко Лариса Олеговна
+         p.doc-spec Акушер-гинеколог
+      div(class="popup doc_1")
+         button.close X
+         img.doc-photo(src="../images/doc_1.jpg")
+         p.time-table График работы:
+         |Вт-Чт: 12:00-20:00
+         |Пт: 09:00-18:00
+         p.popup-doc-title Марченко Раиса Захаровна
+         p.doctor-content Терапевт высшей категории, занимается ведением и лечением пациентов с заболеваниями сердечно-сосудистой системы, пищеварительными заболеваниями, патологиями бронхов и легких, болезнями почек и пациентов с анемиями различного генеза.
+         button.form Записаться на прием
+      div(class="popup doc_2")
+         button.close X
+         img.doc-photo(src="../images/doc_2.jpg")
+         p.time-table График работы:
+         |Пн-Ср: 10:00-16:00
+         |Сб: 09:00-18:00
+         p.popup-doc-title Фадеев Сергей Викторович
+         p.doctor-content Врач хирург, ортопед-травматолог высшей категории, специализируется на лечении болезней опорно-двигательного аппарата, подкожной клетчатки и кожи, удалении патологических накожных и подкожных образований, раннем скрининге онкологических заболеваний. Кроме того, проводит терапию травм и осложнений травм, наблюдает за детьми с патологиями хирургического и травматологического характера.
+         button.form Записаться на прием
+      div(class="popup doc_3")
+         p.time-table График работы:
+         button.close X
+         img.doc-photo(src="../images/doc_3.jpg")
+         p.time-table График работы:
+         |Пн: 08:00-16:00
+         |Ср-Пт: 13:00-20:00
+         p.popup-doc-title Сафронов Игорь Иванович
+         p.doctor-content УЗИ-специалист первой категории, занимается проведением УЗИ внутренних органов и мягких тканей, дает экспертную оценку результатам УЗИ-исследований.
+         button.form Записаться на прием
+      .div(class="popup doc_4")
+         button.close X
+         img.doc-photo(src="../images/doc_4.jpg")
+         p.time-table График работы:
+         |Пн: 10:00-19:00
+         |Пт-Сб: 09:00-17:00
+         p.popup-doc-title Романенко Лариса Олеговна
+         p.doctor-content Врач акушер-гинеколог, основное направление работы которого заключается в лечении патологий эндокринной гинекологии, шейки матки, болезней (воспалительных) органов малого таза (ЗППП), а также ведении беременных. Данный специалист проводит кольпоскопию, УЗИ, а также владеет методиками лечения органов малого таза (классическими и малоинвазивными).
+         button.form Записаться на прием
+   script(src="../js/doctors.js")
+
+
+

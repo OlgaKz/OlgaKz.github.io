@@ -13,12 +13,7 @@ $(function () {
     });
 });
 $(function(){
-
     $('button.form').click(function(){
-        //$('.feedback').show();
-        //$('.popup').hide();
-        //$('#overlay').remove('#overlay');
-        //return false;
         window.open('contact.html#feedback', 'self');
     })
 });

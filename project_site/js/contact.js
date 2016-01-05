@@ -1,3 +1,5 @@
-/**
- * Created by ol4ik on 12/21/2015.
- */
+$(document).ready(function(){
+    $('.slider').bxSlider({
+        auto: true
+    });
+});
