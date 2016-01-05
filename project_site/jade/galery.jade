@@ -1,0 +1,45 @@
+extends layout/layout
+block title
+   title main_page
+block css
+   link(rel='stylesheet', href='../css/main_page.css')
+   link(rel='stylesheet', href='../css/galery.css')
+block content
+   .wrapper
+      include includes/header
+      include includes/main_menu
+      include includes/slider
+      .box-galery
+         .zoom-galery
+            button.close X
+            img.zoom-image(src="")
+         .item-galery
+            img.images(src="../images/img_gal_3.jpg")
+            img.zoom(src="../images/zoom_icon.png")
+         .item-galery
+            img.images(src="../images/img_gal_1.jpg")
+            img.zoom(src="../images/zoom_icon.png")
+         .item-galery
+            img.images(src="../images/img_gal_2.jpg")
+            img.zoom(src="../images/zoom_icon.png")
+         .item-galery
+            img.images(src="../images/img_gal_4.jpg")
+            img.zoom(src="../images/zoom_icon.png")
+         .item-galery
+            img.images(src="../images/img_gal_7.jpg")
+            img.zoom(src="../images/zoom_icon.png")
+         .item-galery
+            img.images(src="../images/img_gal_9.jpg")
+            img.zoom(src="../images/zoom_icon.png")
+         .item-galery
+            img.images(src="../images/img_gal_5.jpg")
+            img.zoom(src="../images/zoom_icon.png")
+         .item-galery
+            img.images(src="../images/img_gal_8.jpg")
+            img.zoom(src="../images/zoom_icon.png")
+         .item-galery
+            img.images(src="../images/img_gal_6.jpg")
+            img.zoom(src="../images/zoom_icon.png")
+   script(src="../js/galery.js")
+
+
