@@ -76,8 +76,8 @@ url('/font/transfonter.org-20151214-114916//Elzevir.ttf') format('truetype');
 }
 .dropdown{
     position:absolute;
-    width: 100%;
-    font-size:15px;
+    width: 110%;
+    font-size:14px;
     background: lightskyblue;
     padding: 0;
     margin: 0;
@@ -86,28 +86,25 @@ url('/font/transfonter.org-20151214-114916//Elzevir.ttf') format('truetype');
     z-index: 10;
 
 }
-.dropdown li{
-    width: 100%;
+.list{
+    width: 110%;
     font-family: Georgia, serif;
     list-style: none;
-    text-align: center;
-    padding: 7px;
+    text-align: left;
+    padding: 5px;
     color: snow;
-
+    text-decoration: none;
 }
 .dropdown a{
     text-decoration: none;
-    border-bottom: 1px solid snow;
     color: snow;
 }
 li:hover .dropdown{
     display:block;
+
 }
 .dropdown a:hover{
-    background-color: snow;
-    padding:3px 2px 5px 2px;
     color: #3070a8;
-    text-decoration: none;
 }
 .container{
     width: 880px;

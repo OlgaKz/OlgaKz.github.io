@@ -1,4 +1,4 @@
-.department{
+#department{
     background-color: #dff5ff;
     width: 700px;
 }
@@ -8,14 +8,14 @@
     font-size: 15px;
     padding: 2px 12px;
 }
-.department h2{
+#department h2{
     color: #2a61ff;
     font-family: Georgia, serif;
     font-weight: 700;
     font-size: 25px;
     text-align: center;
 }
-.department h3{
+#department h3{
     color: #3070a8;
     font-size: 20px;
     font-family: Georgia, serif;

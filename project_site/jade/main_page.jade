@@ -1,0 +1,28 @@
+extends layout/layout
+block title
+     title main_page
+block css
+    link(rel='stylesheet', href='../css/main_page.css')
+    link(rel='stylesheet', href='../css/departments.css')
+
+block content
+ .wrapper
+  include includes/header
+  include includes/main_menu
+  include includes/slider
+  .main_page
+    include includes/side_menu_2
+    .main_page_content
+      h2 Медицинский центр св.Пантелеймона предлагает каждому пациенту:
+      ul
+        li Высокая квалификация персонала
+        li Доступность
+        li Уникальное диагностическое и даборатоное оборудование
+        li Комфортные условия лечения и обследования
+        li Высокое качество медицинских услуг
+        li Право пациента на выбор врача
+        li Гибкая ценовая политика
+        li Комплексное лечение и индивидуальные программы лечение
+ script(src="../js/main_page_list.js")
+    //here will be footer
+
