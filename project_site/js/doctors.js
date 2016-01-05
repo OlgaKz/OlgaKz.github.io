@@ -13,7 +13,6 @@ $(function () {
     });
 });
 $(function(){
-
     $('button.form').click(function(){
         window.open('contact.html#feedback', 'self');
     })
