@@ -1,8 +1,7 @@
 .info{
     background: snow;
-    margin: auto;
-    padding: 0;
-    width: 900px;
+    padding-bottom: 15px;
+
 }
 .info h2{
     text-align: center;
@@ -28,7 +27,7 @@
 #feedback{
     width: 600px;
     border: 3px solid royalblue;
-    margin: 10px auto;
+    margin: 0 auto;
     background: snow;
     position: relative;
     padding: 20px;
@@ -64,7 +63,6 @@
     color: #2a61ff;
     font-size: 20px;
     text-align: center;
-
     padding: 50px;
 
 }
