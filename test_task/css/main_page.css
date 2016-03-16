@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 1280px;
+    margin: 0 auto;
+}
+.head_wrapper{
+    background:url("../img/1.jpg");
+    -moz-background-image: url("../img/1.jpg");
+    -o-background-image: url("../img/1.jpg");
+    -webkit-background-image: url("../img/1.jpg");
+    background-size: 100% ;
+    background-position: top 10% left 15%;
+    display: flex;
+}
+.logo_img{
+    background-color: rgba(0,0,0,0);
+    padding-left: 192px;
+    height: 140px;
+    background-size: 100% ;
+
+}
+.middle_block{
+    padding-left: 209px;
+}
+form{
+    color: crimson;
+    font-size: 12px;
+    padding-top: 8px;
+
+}
+form select{
+    color: crimson;
+    background-color: rgba(0,0,0,0);
+    padding-left: 9px;
+}
+form select option select{
+    font-size: 11px;
+}
+.right_block{
+    padding-left: 200px;
+
+}
+.mobile{
+    width: 135px;;
+    background-color: crimson;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.email{
+    font-size: 20px;
+    width: 135px;
+    color: gray;
+    margin-bottom: 10px;
+}
+.feadback{
+    color: crimson ;
+    width: 135px;
+    font-size: 18px;
+}
+.nav_menu{
+    position: relative;
+    left: -40px;
+    top: 80px;
+}
+.nav_menu_list{
+    list-style: none;
+    display: flex;
+}
+.nav_menu_link{
+    text-decoration: none;
+    color: #232525;
+}
+.nav_menu_item{
+    font-size: 11px;
+    color: #232525;
+    margin: 1px;
+}
+.soc{
+    display: flex;
+}
+.soc_link_fb {
+    background: url("../img/fb.svg");
+    display: block;
+    text-indent: -9999px;
+    width: 100px;
+    height: 82px;
+    background-size: 100px 82px;
+}
+.soc_link_fb:hover{
+    background: url("../img/fb_hover.svg");
+    display: block;
+    text-indent: -9999px;
+    width: 100px;
+    height: 82px;
+    background-size: 100px 82px;
+}
+.soc_link_tw{
+    background: url("../img/tw.svg");
+    display: block;
+    text-indent: -9999px;
+    width: 100px;
+    height: 82px;
+    background-size: 100px 82px;
+}
+.soc_link_tw:hover{
+    background: url("../img/tw_hover.svg");
+    display: block;
+    text-indent: -9999px;
+    width: 100px;
+    height: 82px;
+    background-size: 100px 82px;
+}
+.soc_link_od{
+    background: url("../img/od.svg");
+    display: block;
+    text-indent: -9999px;
+    width: 100px;
+    height: 82px;
+    background-size: 100px 82px;
+}
+.soc_link_od:hover{
+    background: url("../img/od_hover.svg");
+    display: block;
+    text-indent: -9999px;
+    width: 100px;
+    height: 82px;
+    background-size: 100px 82px;
+}
+.soc_link_g{
+    background: url("../img/g+.svg");
+    display: block;
+    text-indent: -9999px;
+    width: 100px;
+    height: 82px;
+    background-size: 100px 82px;
+}
+.soc_link_g:hover{
+    background: url("../img/g+_hover.svg");
+    display: block;
+    text-indent: -9999px;
+    width: 100px;
+    height: 82px;
+    background-size: 100px 82px;
+}
+.soc_link_vk{
+    background: url("../img/vk.svg");
+    display: block;
+    text-indent: -9999px;
+    width: 100px;
+    height: 82px;
+    background-size: 100px 82px;
+}
+.soc_link_vk:hover{
+    background: url("../img/vk_hover.svg");
+    display: block;
+    text-indent: -9999px;
+    width: 100px;
+    height: 82px;
+    background-size: 100px 82px;
+}
