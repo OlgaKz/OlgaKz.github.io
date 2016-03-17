@@ -26,13 +26,13 @@ body{
     padding-left: 209px;
 }
 form{
-    color: crimson;
+    color: #7b164b;
     font-size: 12px;
     padding-top: 8px;
 
 }
 form select{
-    color: crimson;
+    color: #7b164b;
     background-color: rgba(0,0,0,0);
     padding-left: 9px;
 }
@@ -40,31 +40,36 @@ form select option select{
     font-size: 11px;
 }
 .right_block{
-    padding-left: 200px;
+    padding-left: 142px;
+    width: 210px;
 
 }
 .mobile{
-    width: 135px;;
-    background-color: crimson;
-    color: white;
+    background-color: #7b164b;
+    color: #f4eff1;
     font-size: 18px;
-    margin-bottom: 10px;
+    margin-bottom: 7px;
+    text-indent: 15%;
+    padding-top: 5px;
 }
 .email{
     font-size: 20px;
-    width: 135px;
-    color: gray;
+    color: #4d4d4d;
     margin-bottom: 10px;
+    text-shadow: #a5a2a0;
+    -moz-text-shadow:#a5a2a0;
+    -o-text-shadow:#a5a2a0;
+    -webkit-text-shadow:#a5a2a0;
 }
 .feadback{
-    color: crimson ;
-    width: 135px;
+    color: #680e34 ;
     font-size: 18px;
+    margin-bottom: 25px;
 }
 .nav_menu{
     position: relative;
-    left: -40px;
-    top: 80px;
+    left: -55px;
+    top: 72px;
 }
 .nav_menu_list{
     list-style: none;
@@ -72,11 +77,11 @@ form select option select{
 }
 .nav_menu_link{
     text-decoration: none;
-    color: #232525;
+    color: #616161;
 }
 .nav_menu_item{
-    font-size: 11px;
-    color: #232525;
+    font-size: 12px;
+    color: #616161;
     margin: 1px;
 }
 .soc{
@@ -86,79 +91,127 @@ form select option select{
     background: url("../img/fb.svg");
     display: block;
     text-indent: -9999px;
-    width: 100px;
-    height: 82px;
-    background-size: 100px 82px;
+    width: 23px;
+    height: 19px;
+    background-size: 20px 17px;
+    margin-right: 20px;
 }
 .soc_link_fb:hover{
     background: url("../img/fb_hover.svg");
     display: block;
     text-indent: -9999px;
-    width: 100px;
-    height: 82px;
-    background-size: 100px 82px;
+    width: 23px;
+    height: 19px;
+    background-size: 20px 17px;
 }
 .soc_link_tw{
     background: url("../img/tw.svg");
     display: block;
     text-indent: -9999px;
-    width: 100px;
-    height: 82px;
-    background-size: 100px 82px;
+    width: 23px;
+    height: 19px;
+    background-size: 20px 17px;
+    margin-right: 20px;
 }
 .soc_link_tw:hover{
     background: url("../img/tw_hover.svg");
     display: block;
     text-indent: -9999px;
-    width: 100px;
-    height: 82px;
-    background-size: 100px 82px;
+    width: 23px;
+    height: 19px;
+    background-size: 20px 17px;
 }
 .soc_link_od{
     background: url("../img/od.svg");
     display: block;
     text-indent: -9999px;
-    width: 100px;
-    height: 82px;
-    background-size: 100px 82px;
+    width: 23px;
+    height: 19px;
+    background-size: 20px 17px;
+    margin-right: 20px;
 }
 .soc_link_od:hover{
     background: url("../img/od_hover.svg");
     display: block;
     text-indent: -9999px;
-    width: 100px;
-    height: 82px;
-    background-size: 100px 82px;
+    width: 23px;
+    height: 19px;
+    background-size: 20px 17px;
 }
 .soc_link_g{
     background: url("../img/g+.svg");
     display: block;
     text-indent: -9999px;
-    width: 100px;
-    height: 82px;
-    background-size: 100px 82px;
+    width: 23px;
+    height: 19px;
+    background-size: 20px 17px;
+    margin-right: 20px;
 }
 .soc_link_g:hover{
     background: url("../img/g+_hover.svg");
     display: block;
     text-indent: -9999px;
-    width: 100px;
-    height: 82px;
-    background-size: 100px 82px;
+    width: 23px;
+    height: 19px;
+    background-size: 20px 17px;
 }
 .soc_link_vk{
     background: url("../img/vk.svg");
     display: block;
     text-indent: -9999px;
-    width: 100px;
-    height: 82px;
-    background-size: 100px 82px;
+    width: 23px;
+    height: 19px;
+    background-size: 20px 17px;
+    margin-right: 20px;
 }
 .soc_link_vk:hover{
     background: url("../img/vk_hover.svg");
     display: block;
     text-indent: -9999px;
-    width: 100px;
-    height: 82px;
-    background-size: 100px 82px;
+    width: 23px;
+    height: 19px;
+    background-size: 20px 17px;
 }
+.main_menu{
+    height: 50px;
+    background: url("../img/texture-menu-white.svg") no-repeat;
+    background-color: #7b164b;
+}
+.main_menu_list{
+    margin: 0;
+    list-style: none;
+    display:flex;
+    padding-left: 250px;
+    width: 900px;
+}
+.main_menu_item{
+margin: 15px 25px auto;
+}
+.main_menu_link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    line-height: 1;
+}
+.Визуализация_декоративных_покрытий_в_интерьере {
+    font-size: 13px;
+    font-family: "Myriad Pro";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    position: absolute;
+    left: 721.938px;
+    top: 366.821px;
+    z-index: 100;
+}
+.Главная______________Каталог_покрытий__________ {
+    font-size: 16px;
+    font-family: "Myriad Pro";
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    text-align: center;
+    position: absolute;
+    left: 295.937px;
+    top: 168.553px;
+    z-index: 114;
+}
+
