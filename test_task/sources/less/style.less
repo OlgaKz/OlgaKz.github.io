@@ -1,6 +1,6 @@
 @text_colour : #616161;
 @bg_colour : #680e34;
-@form_colour: #7b164b;
+@form_colour: rgb(123, 22, 75);
 
 body{
   margin: 0;
@@ -29,7 +29,7 @@ body{
 .middle_block{
   padding-left: 209px;
 }
-form{
+.city{
   color: @form_colour;
   font-size: 12px;
   padding-top: 8px;
@@ -192,11 +192,11 @@ form{
 }
 .dropdown_menu_item{
   z-index: 100;
-  padding: 10px 15px;
+  padding: 12px 15px;
   &:hover{
      color: rgb(255, 255, 255);
      background-color: #79284a;
-    padding: 10px 15px;
+    padding: 12px 15px;
    }
 }
 .dropdown_menu_link{
@@ -204,5 +204,43 @@ form{
   color: rgb(255, 255, 255);
   font-size: 13px;
   cursor: default;
-  -height: 33px;
+}
+.middle_wrapper{
+}
+.middle_left{
+  padding: 33px 0 0 190px;
+  background: url("../img/left-menu-bg-color.svg");
+  background-color: #79284a;
+  width: 19%;
+}
+.search_field{
+  height: 30px;
+  width:220px;
+  text-indent: 10px;
+  color: rgb(154, 154, 154);
+}
+.searchGlass{
+  position: absolute;
+  left: 424px;
+  top: 235px;
+  z-index: 92;
+}
+.vert_menu{
+  margin-top: 25px;
+}
+.vert_menu_list{
+  color: @form_colour;
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height: 1.5;
+  text-align: left;
+  
+}
+.vert_menu_item{
+  color: rgb(154, 154, 154);
+  font-size: 14px;
+  line-height: 1.929;
+}
+.vert_menu_link{
+
 }

@@ -2,7 +2,6 @@ extends layout/layout
 block title
    title main_page
 block css
-   link(rel="stylesheet", href="../css/main_page.css")
    link(rel="stylesheet/less", type="text/css", href="../less/style.less")
    script(src="../libs/less.js", type="text/javascript")
 
@@ -11,10 +10,17 @@ block content
       include includes/head.jade
       .middle_wrapper
          .middle_left
-            .search
-               form(name="search")
-                  input(class="search" type="text" name="search_word" placeholder="Поиск" size='35' maxlength='40'))
+            form(name="search",method="post" action="")
+               input(class="search_field" type="text" name="search_word" placeholder="Поиск..." size='35' maxlength='35')
+               input(type="image", src="../img/searchGlass.png", alt=""  class="searchGlass")
             .vert_menu
+               ul.vert_menu_list Услуги
+                  li.vert_menu_item: a.vert_menu_link(href="#") Обучение нанесению
+                  li.vert_menu_item: a.vert_menu_link(href="#") Услуши нанесения
+                  li.vert_menu_item: a.vert_menu_link(href="#") Аренда оборудования
+                  li.vert_menu_item: a.vert_menu_link(href="#") Выезд специалиста на обьект
+                  li.vert_menu_item: a.vert_menu_link(href="#") Доставка
+                  li.vert_menu_item: a.vert_menu_link(href="#") Визуализация декоративных покрытий в интерьере
          .wrapper_middle_list
             .list_1
             .list_2

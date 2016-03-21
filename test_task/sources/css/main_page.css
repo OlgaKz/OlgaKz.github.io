@@ -233,25 +233,30 @@ margin: 15px 25px auto;
     top: 213.003px;
     z-index: 94;
 }
-.Слой_7 {
-    background-image: url("Слой 7.png");
+.Услуги {
+    font-size: 18px;
+    font-family: "Myriad Pro";
+    color: rgb(123, 22, 75);
+    text-transform: uppercase;
+    line-height: 1.5;
+    text-align: left;
     position: absolute;
-    left: 195px;
-    top: 211px;
-    width: 239px;
-    height: 39px;
-    z-index: 92;
+    left: 197.937px;
+    top: 264px;
+    z-index: 89;
 }
-.Поиск___ {
+.Обучение_нанесению_Услуги_нанесения_Аренда_обор {
     font-size: 14px;
     font-family: "Myriad Pro";
-    color: rgb(202, 202, 202);
-    line-height: 2.571;
+    color: rgb(154, 154, 154);
+    line-height: 1.929;
     position: absolute;
-    left: 207.937px;
-    top: 213.003px;
-    z-index: 94;
+    left: 196.98px;
+    top: 322.747px;
+    z-index: 87;
 }
+
+
 
 
 
