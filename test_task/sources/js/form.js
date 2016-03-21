@@ -1,19 +1,19 @@
 var info = {
-    Chernihiv: {
-        email: "Chernihiv@email.com",
-        mobile: "+380931456789"
+    Москва: {
+        email: "contactM@decorum-elite.ru",
+        mobile: "+7 (495) 543-45-80"
     },
-    Kiev: {
-        email: "Kiev@email.com",
-        mobile: "+380932456789"
+    Красноярск: {
+        email: "contactK@decorum-elite.ru",
+        mobile: "+7 (695) 543-45-80"
     },
-    Odessa: {
-        email: "Odessa@email.com",
-        mobile: "+380933456789"
+    Oмск: {
+        email: "contactO@decorum-elite.ru",
+        mobile: "+7 (295) 543-45-80"
     },
-    Lviv: {
-        email: "Lviv@email.com",
-        mobile: "+380934456789"
+    Екатеринбург: {
+        email: "contactE@decorum-elite.ru",
+        mobile: "+7 (895) 543-45-80"
     }
 };
 
