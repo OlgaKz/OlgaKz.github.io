@@ -1,0 +1,25 @@
+extends layout/layout
+block title
+   title main_page
+block css
+   link(rel="stylesheet", href="../css/main_page.css")
+   link(rel="stylesheet/less", type="text/css", href="../less/style.less")
+   script(src="../libs/less.js", type="text/javascript")
+
+block content
+   .wrapper
+      include includes/head.jade
+      .middle_wrapper
+         .middle_left
+            .search
+               form(name="search")
+                  input(class="search" type="text" name="search_word" placeholder="Поиск" size='35' maxlength='40'))
+            .vert_menu
+         .wrapper_middle_list
+            .list_1
+            .list_2
+            .list_3
+            .list_4
+
+
+   script(src="../js/form.js")

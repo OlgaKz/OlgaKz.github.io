@@ -61,7 +61,7 @@ form select option select{
     -o-text-shadow:#a5a2a0;
     -webkit-text-shadow:#a5a2a0;
 }
-.feadback{
+/*.feadback{
     color: #680e34 ;
     font-size: 18px;
     margin-bottom: 25px;
@@ -87,7 +87,7 @@ form select option select{
 .soc{
     display: flex;
 }
-.soc_link_fb {
+soc_link_fb {
     background: url("../img/fb.svg");
     display: block;
     text-indent: -9999px;
@@ -96,7 +96,7 @@ form select option select{
     background-size: 20px 17px;
     margin-right: 20px;
 }
-.soc_link_fb:hover{
+soc_link_fb:hover{
     background: url("../img/fb_hover.svg");
     display: block;
     text-indent: -9999px;
@@ -104,6 +104,7 @@ form select option select{
     height: 19px;
     background-size: 20px 17px;
 }
+
 .soc_link_tw{
     background: url("../img/tw.svg");
     display: block;
@@ -192,7 +193,7 @@ margin: 15px 25px auto;
     color: rgb(255, 255, 255);
     font-size: 16px;
     line-height: 1;
-}
+}*/
 .Визуализация_декоративных_покрытий_в_интерьере {
     font-size: 13px;
     font-family: "Myriad Pro";
@@ -214,4 +215,43 @@ margin: 15px 25px auto;
     top: 168.553px;
     z-index: 114;
 }
+.search {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1364px;
+    height: 1026px;
+    z-index: 95;
+}
+.Поиск___ {
+    font-size: 14px;
+    font-family: "Myriad Pro";
+    color: rgb(202, 202, 202);
+    line-height: 2.571;
+    position: absolute;
+    left: 207.937px;
+    top: 213.003px;
+    z-index: 94;
+}
+.Слой_7 {
+    background-image: url("Слой 7.png");
+    position: absolute;
+    left: 195px;
+    top: 211px;
+    width: 239px;
+    height: 39px;
+    z-index: 92;
+}
+.Поиск___ {
+    font-size: 14px;
+    font-family: "Myriad Pro";
+    color: rgb(202, 202, 202);
+    line-height: 2.571;
+    position: absolute;
+    left: 207.937px;
+    top: 213.003px;
+    z-index: 94;
+}
+
+
 
