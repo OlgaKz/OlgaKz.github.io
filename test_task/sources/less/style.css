@@ -167,11 +167,12 @@ body {
   margin: 0;
   list-style: none;
   display: flex;
-  padding-left: 250px;
-  width: 900px;
+  padding-left: 220px;
+  width: 950px;
 }
 .main_menu_item {
-  padding: 15px 25px;
+  padding: 15px 0;
+  margin-right: 70px;
 }
 .main_menu_item:hover .dropdown_menu {
   display: block;
@@ -222,7 +223,6 @@ body {
 .middle_left {
   padding: 33px 0 0 190px;
   background: url("../img/left-menu-bg-color.svg");
-  background-color: #79284a;
   width: 19%;
 }
 .search_field {
@@ -238,17 +238,23 @@ body {
   z-index: 92;
 }
 .vert_menu {
-  margin-top: 25px;
-}
-.vert_menu_list {
+  width: 190px;
+  margin-top: 15px;
   color: #7b164b;
   font-size: 18px;
   text-transform: uppercase;
   line-height: 1.5;
-  text-align: left;
 }
-.vert_menu_item {
+.vert_menu_list {
+  text-align: left;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.vert_menu_link {
+  text-decoration: none;
   color: #9a9a9a;
   font-size: 14px;
-  line-height: 1.929;
+  text-transform: none;
+  line-height: 1.2;
 }

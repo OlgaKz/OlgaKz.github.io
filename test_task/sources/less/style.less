@@ -149,11 +149,12 @@ body{
   margin: 0;
   list-style: none;
   display:flex;
-  padding-left: 250px;
-  width: 900px;
+  padding-left: 220px;
+  width: 950px;
 }
 .main_menu_item{
-  padding: 15px 25px;
+  padding: 15px 0;
+  margin-right: 70px;
   &:hover .dropdown_menu{
   display: block;
 }
@@ -210,7 +211,6 @@ body{
 .middle_left{
   padding: 33px 0 0 190px;
   background: url("../img/left-menu-bg-color.svg");
-  background-color: #79284a;
   width: 19%;
 }
 .search_field{
@@ -226,21 +226,26 @@ body{
   z-index: 92;
 }
 .vert_menu{
-  margin-top: 25px;
-}
-.vert_menu_list{
+  width: 190px;
+  margin-top: 15px;
   color: @form_colour;
   font-size: 18px;
   text-transform: uppercase;
   line-height: 1.5;
+}
+.vert_menu_list{
   text-align: left;
-  
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
 }
 .vert_menu_item{
-  color: rgb(154, 154, 154);
-  font-size: 14px;
-  line-height: 1.929;
 }
 .vert_menu_link{
-
+  text-decoration: none;
+  color: rgb(154, 154, 154);
+  font-size: 14px;
+  text-transform: none;
+  line-height: 1.2;
 }
