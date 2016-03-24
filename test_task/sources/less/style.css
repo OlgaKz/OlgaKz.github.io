@@ -22,10 +22,11 @@ body {
   background-size: 100% ;
 }
 .middle_block {
-  padding-left: 209px;
+  padding-left: 160px;
 }
 .city {
   color: #7b164b;
+  font-family: "Myriad Pro";
   font-size: 12px;
   padding-top: 8px;
 }
@@ -40,10 +41,11 @@ body {
   background-color: rgba(0, 0, 0, 0);
 }
 .right_block {
-  padding-left: 142px;
-  width: 210px;
+  padding-left: 160px;
+  width: 240px;
 }
 .mobile {
+  font-family: "Myriad Pro";
   background-color: #7b164b;
   color: #f4eff1;
   font-size: 18px;
@@ -52,6 +54,7 @@ body {
   padding-top: 5px;
 }
 .email {
+  font-family: "Myriad Pro";
   font-size: 20px;
   color: #616161;
   margin-bottom: 10px;
@@ -64,6 +67,7 @@ body {
   color: #680e34;
   font-size: 18px;
   margin-bottom: 25px;
+  font-family: "Myriad Pro";
 }
 .nav_menu {
   position: relative;
@@ -83,6 +87,7 @@ body {
 }
 .nav_menu_item {
   font-size: 12px;
+  font-family: "Myriad Pro";
   color: #616161;
   margin: 1px;
 }
@@ -168,7 +173,7 @@ body {
   list-style: none;
   display: flex;
   padding-left: 220px;
-  width: 950px;
+  width: 1050px;
 }
 .main_menu_item {
   padding: 15px 0;
@@ -182,6 +187,7 @@ body {
   color: #ffffff;
   font-size: 16px;
   line-height: 1;
+  font-family: "Myriad Pro";
 }
 .dropdown_menu {
   background-color: #7b164b;
@@ -219,10 +225,14 @@ body {
   color: #ffffff;
   font-size: 13px;
   cursor: default;
+  font-family: "Myriad Pro";
+}
+.middle_wrapper {
+  background: url("../img/left-menu-bg-color.svg");
+  display: flex;
 }
 .middle_left {
   padding: 33px 0 0 190px;
-  background: url("../img/left-menu-bg-color.svg");
   width: 19%;
 }
 .search_field {
@@ -244,6 +254,7 @@ body {
   font-size: 18px;
   text-transform: uppercase;
   line-height: 1.5;
+  font-family: "Myriad Pro";
 }
 .vert_menu_list {
   text-align: left;
@@ -257,4 +268,56 @@ body {
   font-size: 14px;
   text-transform: none;
   line-height: 1.2;
+  font-family: "Myriad Pro";
+}
+.wrapper_middle_list {
+  width: 81%;
+  padding: 33px 270px 0 20px;
+}
+.list_1 {
+  background: url("../img/квартира.png");
+  width: 355px;
+  height: 254px;
+  z-index: 73;
+}
+.list_1_title {
+  font-size: 30px;
+  font-family: "Poiret One";
+  font-weight: 700;
+  width: 100px;
+  text-indent: 20px;
+  color: #680e34;
+  text-transform: uppercase;
+  line-height: 1.2;
+  -moz-transform: matrix(1.00208738, 0, 0, 1.00009281, 0, 0);
+  -webkit-transform: matrix(1.00208738, 0, 0, 1.00009281, 0, 0);
+  -ms-transform: matrix(1.00208738, 0, 0, 1.00009281, 0, 0);
+  position: absolute;
+  left: 550.157px;
+  top: 280.394px;
+  z-index: 76;
+}
+.list_1_title::after {
+  content: "";
+  background-image: url("../img/line.png");
+  position: absolute;
+  left: 50px;
+  top: 82px;
+  width: 65px;
+  height: 1px;
+  z-index: 77;
+}
+.list_open {
+  font-size: 16px;
+  font-family: "Myriad Pro";
+  color: #616161;
+  line-height: 0.875;
+  -moz-transform: matrix(1.00208738, 0, 0, 1.00009281, 0, 0);
+  -webkit-transform: matrix(1.00208738, 0, 0, 1.00009281, 0, 0);
+  -ms-transform: matrix(1.00208738, 0, 0, 1.00009281, 0, 0);
+  position: absolute;
+  left: 598.561px;
+  top: 381.812px;
+  z-index: 78;
+  cursor: default;
 }
