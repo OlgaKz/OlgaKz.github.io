@@ -290,7 +290,7 @@ body {
 .wrapper_middle_list {
   max-width: 1080px;
   min-width: 764px;
-  margin: 33px 0 0 20px;
+  margin: 33px 0 100px 20px;
 }
 .list_1 {
   background: url("../img/квартира.png");
@@ -525,4 +525,35 @@ body {
   left: 142.561px;
   top: 151.812px;
   z-index: 78;
+}
+.footer_wrapper {
+  background: url("../img/texture-footer-white.svg") no-repeat;
+  background-color: #680e34;
+  background-size: 100%;
+  height: 237px;
+}
+.footer_content {
+  display: flex;
+  padding: 21px 0;
+}
+.logo_img_footer {
+  width: 149px;
+  height: 100px;
+  z-index: 29;
+  margin: 0 50px 0 170px;
+  padding-top: 25px;
+}
+.footer_box {
+  z-index: 11;
+  list-style: none;
+  margin: 0 50px 0 20px;
+}
+.footer_box_link {
+  font-size: 14px;
+  font-family: "Myriad Pro";
+  color: #ffffff;
+  text-transform: uppercase;
+  line-height: 2.713;
+  text-align: left;
+  text-decoration: none;
 }
