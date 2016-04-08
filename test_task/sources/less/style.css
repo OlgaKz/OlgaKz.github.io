@@ -53,12 +53,8 @@ body {
   color: #f4eff1;
   font-size: 18px;
   margin-bottom: 7px;
-  padding-top: 5px;
+  text-indent: 3%;
   line-height: 1.5;
-  text-align: right;
-  position: absolute;
-  left: 985.007px;
-  top: 42.171px;
   z-index: 127;
 }
 .email {
@@ -72,21 +68,13 @@ body {
   -webkit-text-shadow: #a5a2a0;
   z-index: 128;
   line-height: 1.8;
-  text-align: right;
-  position: absolute;
-  left: 978.937px;
-  top: 10.383px;
 }
 .feadback {
   color: #580135;
   font-size: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 2px;
   font-family: "Myriad Pro";
   line-height: 1.8;
-  text-align: right;
-  position: absolute;
-  left: 983.212px;
-  top: 73.445px;
   z-index: 125;
 }
 .nav_menu {
@@ -113,23 +101,21 @@ body {
 }
 .soc {
   display: flex;
-  position: absolute;
-  top: 103px;
-  left: 968.212px;
+  width: 180px;
 }
 .soc_link {
   text-indent: -9999px;
-  width: 17px;
-  height: 17px;
-  background-size: 17px 17px;
-  margin: 0 11px;
+  width: 15px;
+  height: 15px;
+  background-size: 15px 15px;
+  margin: 1px 11px;
 }
 .soc_link_fb {
   text-indent: -9999px;
-  width: 17px;
-  height: 17px;
-  background-size: 17px 17px;
-  margin: 0 11px;
+  width: 15px;
+  height: 15px;
+  background-size: 15px 15px;
+  margin: 1px 11px;
   background: url("../img/fb.svg");
 }
 .soc_link_fb:hover {
@@ -137,10 +123,10 @@ body {
 }
 .soc_link_tw {
   text-indent: -9999px;
-  width: 17px;
-  height: 17px;
-  background-size: 17px 17px;
-  margin: 0 11px;
+  width: 15px;
+  height: 15px;
+  background-size: 15px 15px;
+  margin: 1px 11px;
   background: url("../img/tw.svg");
 }
 .soc_link_tw:hover {
@@ -148,10 +134,10 @@ body {
 }
 .soc_link_od {
   text-indent: -9999px;
-  width: 17px;
-  height: 17px;
-  background-size: 17px 17px;
-  margin: 0 11px;
+  width: 15px;
+  height: 15px;
+  background-size: 15px 15px;
+  margin: 1px 11px;
   background: url("../img/od.svg");
 }
 .soc_link_od:hover {
@@ -159,10 +145,10 @@ body {
 }
 .soc_link_g {
   text-indent: -9999px;
-  width: 17px;
-  height: 17px;
-  background-size: 17px 17px;
-  margin: 0 11px;
+  width: 15px;
+  height: 15px;
+  background-size: 15px 15px;
+  margin: 1px 11px;
   background: url("../img/g+.svg");
 }
 .soc_link_g:hover {
@@ -170,10 +156,10 @@ body {
 }
 .soc_link_vk {
   text-indent: -9999px;
-  width: 17px;
-  height: 17px;
-  background-size: 17px 17px;
-  margin: 0 11px;
+  width: 15px;
+  height: 15px;
+  background-size: 15px 15px;
+  margin: 1px 11px;
   background: url("../img/vk.svg");
 }
 .soc_link_vk:hover {
@@ -252,16 +238,20 @@ body {
   padding: 33px 0 0 190px;
   max-width: 243px;
 }
+form {
+  position: relative;
+}
 .search_field {
-  height: 30px;
+  height: 28px;
   width: 220px;
   text-indent: 10px;
   color: #9a9a9a;
+  background: transparent;
 }
 .searchGlass {
   position: absolute;
-  left: 424px;
-  top: 220px;
+  left: 194px;
+  top: 10px;
   z-index: 92;
 }
 .vert_menu {
@@ -553,7 +543,43 @@ body {
   font-family: "Myriad Pro";
   color: #ffffff;
   text-transform: uppercase;
-  line-height: 2.713;
+  line-height: 2.8;
   text-align: left;
   text-decoration: none;
+}
+.contact_info {
+  width: 240px;
+}
+.email_footer {
+  color: #ffffff;
+  line-height: 2.143;
+  font-size: 14px;
+  font-family: "Myriad Pro";
+  margin-bottom: 10px;
+  z-index: 14;
+}
+.email_footer:before {
+  content: "";
+  background: url("../img/mail.png") no-repeat;
+  padding-right: 21px;
+  margin-right: 15px;
+}
+.mobile_footer {
+  width: inherit;
+  font-size: 17px;
+  text-transform: uppercase;
+  line-height: 1.764;
+  z-index: 13;
+  color: #ffffff;
+  font-family: 'Poiret One';
+  background-color: transparent;
+}
+.mobile_footer:before {
+  content: "";
+  background: url("../img/phone.png") no-repeat;
+  padding: 0 13px 2px 0;
+  margin-right: 10px;
+}
+.soc_footer {
+  margin-top: 10px;
 }
